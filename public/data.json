@@ -1,0 +1,247 @@
+{
+  "projects": [
+    {
+      "id": "trident-hills",
+      "name": "Trident Hills",
+      "slug": "trident-hills",
+      "location": "Panchkula, Haryana",
+      "priceRange": "₹1.5 Cr - ₹4 Cr",
+      "status": "NEW LAUNCH",
+      "statusColor": "blue",
+      "type": "Residential",
+      "bhk": "2-4 BHK",
+      "image": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "description": "Premium residential project in the heart of Panchkula with world-class amenities and modern architecture.",
+      "overview": "Trident Hills represents the pinnacle of luxury living in Panchkula, Haryana. This premium residential development offers spacious 2-4 BHK apartments with contemporary design and world-class amenities. Located in a prime area with excellent connectivity, Trident Hills provides the perfect blend of comfort, convenience, and luxury for modern families.",
+      "features": ["Swimming Pool", "Gym", "Club House", "24/7 Security"],
+      "possession": "Dec 2025",
+      "unitSizes": [
+        { "type": "2 BHK", "size": "1,200 sq ft", "price": "₹1.5 Cr" },
+        { "type": "3 BHK", "size": "1,650 sq ft", "price": "₹2.5 Cr" },
+        { "type": "4 BHK", "size": "2,200 sq ft", "price": "₹4 Cr" }
+      ],
+      "amenities": [
+        "Swimming Pool", "Fitness Center", "Club House", "Children's Play Area",
+        "Landscaped Gardens", "24/7 Security", "Power Backup", "Parking",
+        "Jogging Track", "Community Hall", "Indoor Games", "Spa & Wellness"
+      ],
+      "locationHighlights": [
+        "5 minutes from Sector 17 Market", "Close to IT Hub", "Near Schools & Hospitals",
+        "Metro Connectivity", "Shopping Malls Nearby", "Airport Access"
+      ],
+      "gallery": {
+        "images": [
+          "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/280229/pexels-photo-280229.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg?auto=compress&cs=tinysrgb&w=800"
+        ],
+        "videos": []
+      },
+      "faqs": [
+        {
+          "question": "What is the starting price of Trident Hills?",
+          "answer": "The starting price for Trident Hills is ₹1.5 Cr for a 2 BHK apartment."
+        },
+        {
+          "question": "When is the possession date for Trident Hills?",
+          "answer": "The possession date for Trident Hills is scheduled for December 2025."
+        },
+        {
+          "question": "What amenities are available in Trident Hills?",
+          "answer": "Trident Hills offers premium amenities including swimming pool, fitness center, club house, landscaped gardens, and 24/7 security."
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Rajesh Kumar",
+          "rating": 5,
+          "comment": "Excellent project with great amenities and location. The team is very professional.",
+          "date": "2024-01-15"
+        },
+        {
+          "name": "Priya Sharma",
+          "rating": 4,
+          "comment": "Beautiful architecture and well-planned layout. Looking forward to possession.",
+          "date": "2024-01-10"
+        }
+      ],
+      "contactInfo": {
+        "address": "Plot No. 123, Sector 20, Panchkula, Haryana - 134109",
+        "phone": "+91 98765 43210",
+        "email": "info@tridenthills.com",
+        "officeHours": "Mon-Sat: 9:00 AM - 7:00 PM"
+      },
+      "seoKeywords": [
+        "Trident Hills Layout", "Trident Hills Location", "Trident Hills Size",
+        "Trident Hills Pre Launch", "Trident Hills Price", "Trident Hills Reviews",
+        "Trident Hills FAQs", "Trident Hills Contact Details", "Trident Hills Office Address"
+      ]
+    },
+    {
+      "id": "trident-towers",
+      "name": "Trident Towers",
+      "slug": "trident-towers",
+      "location": "Andheri West, Mumbai", 
+      "priceRange": "₹2.5 - 4.2 Cr",
+      "status": "Pre-Launch",
+      "statusColor": "orange",
+      "type": "Residential",
+      "bhk": "2-3 BHK",
+      "image": "https://images.pexels.com/photos/280229/pexels-photo-280229.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "description": "Premium residential towers with world-class amenities in the heart of Andheri West. Experience luxury living with modern architecture.",
+      "overview": "Trident Towers stands as a testament to luxury living in Mumbai's prime Andheri West location. These premium residential towers offer meticulously designed 2-3 BHK apartments with world-class amenities and modern architecture. With excellent connectivity to business districts and entertainment hubs, Trident Towers provides the perfect urban lifestyle.",
+      "features": ["Premium Location", "Modern Amenities", "High-Rise Living", "Metro Connectivity"],
+      "possession": "Mar 2026",
+      "unitSizes": [
+        { "type": "2 BHK", "size": "1,100 sq ft", "price": "₹2.5 Cr" },
+        { "type": "3 BHK", "size": "1,500 sq ft", "price": "₹4.2 Cr" }
+      ],
+      "amenities": [
+        "Rooftop Pool", "Sky Lounge", "Fitness Center", "Concierge Service",
+        "Valet Parking", "High-Speed Elevators", "Power Backup", "Security",
+        "Landscaped Podium", "Business Center", "Party Hall", "Spa"
+      ],
+      "locationHighlights": [
+        "Andheri Metro Station - 2 mins", "International Airport - 15 mins", "Linking Road - 5 mins",
+        "Versova Beach - 10 mins", "Business Districts Nearby", "Premium Shopping Malls"
+      ],
+      "gallery": {
+        "images": [
+          "https://images.pexels.com/photos/280229/pexels-photo-280229.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800"
+        ],
+        "videos": []
+      },
+      "faqs": [
+        {
+          "question": "What is the starting price of Trident Towers?",
+          "answer": "The starting price for Trident Towers is ₹2.5 Cr for a 2 BHK apartment."
+        },
+        {
+          "question": "When is the possession date for Trident Towers?",
+          "answer": "The possession date for Trident Towers is scheduled for March 2026."
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Amit Patel",
+          "rating": 5,
+          "comment": "Prime location in Andheri West with excellent connectivity. Great investment opportunity.",
+          "date": "2024-01-12"
+        }
+      ],
+      "contactInfo": {
+        "address": "Plot No. 456, Andheri West, Mumbai - 400058",
+        "phone": "+91 98765 43211",
+        "email": "info@tridenttowers.com",
+        "officeHours": "Mon-Sat: 9:00 AM - 8:00 PM"
+      },
+      "seoKeywords": [
+        "Trident Towers Layout", "Trident Towers Location", "Trident Towers Size",
+        "Trident Towers Pre Launch", "Trident Towers Price", "Trident Towers Reviews"
+      ]
+    },
+    {
+      "id": "trident-gardens",
+      "name": "Trident Gardens",
+      "slug": "trident-gardens",
+      "location": "Ghodbunder Road, Thane",
+      "priceRange": "₹1.2 - 2.8 Cr",
+      "status": "Launching Soon",
+      "statusColor": "green",
+      "type": "Residential",
+      "bhk": "1-3 BHK",
+      "image": "https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "description": "Spacious homes surrounded by lush landscaping. Perfect blend of nature and modern living with premium amenities.",
+      "overview": "Trident Gardens offers a unique living experience where nature meets modern luxury. Located on the scenic Ghodbunder Road in Thane, this project features spacious 1-3 BHK homes surrounded by lush landscaping and premium amenities. It's the perfect choice for families seeking a peaceful yet well-connected lifestyle.",
+      "features": ["Garden Views", "Landscaped Gardens", "Children's Play Area", "Jogging Track"],
+      "possession": "Jun 2026",
+      "unitSizes": [
+        { "type": "1 BHK", "size": "650 sq ft", "price": "₹1.2 Cr" },
+        { "type": "2 BHK", "size": "950 sq ft", "price": "₹1.8 Cr" },
+        { "type": "3 BHK", "size": "1,350 sq ft", "price": "₹2.8 Cr" }
+      ],
+      "amenities": [
+        "Landscaped Gardens", "Children's Play Area", "Jogging Track", "Clubhouse",
+        "Swimming Pool", "Gym", "Yoga Deck", "Security", "Parking", "Maintenance"
+      ],
+      "locationHighlights": [
+        "Ghodbunder Road Access", "Nature Views", "Peaceful Environment",
+        "Good Connectivity", "Schools Nearby", "Healthcare Facilities"
+      ],
+      "gallery": {
+        "images": [
+          "https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg?auto=compress&cs=tinysrgb&w=800"
+        ],
+        "videos": []
+      },
+      "faqs": [
+        {
+          "question": "What is the starting price of Trident Gardens?",
+          "answer": "The starting price for Trident Gardens is ₹1.2 Cr for a 1 BHK apartment."
+        }
+      ],
+      "reviews": [],
+      "contactInfo": {
+        "address": "Ghodbunder Road, Thane - 400607",
+        "phone": "+91 98765 43212",
+        "email": "info@tridentgardens.com",
+        "officeHours": "Mon-Sat: 9:00 AM - 7:00 PM"
+      },
+      "seoKeywords": [
+        "Trident Gardens Layout", "Trident Gardens Location", "Trident Gardens Size"
+      ]
+    },
+    {
+      "id": "trident-square",
+      "name": "Trident Square",
+      "slug": "trident-square",
+      "location": "Sector 18, Noida",
+      "priceRange": "₹80L - 1.5 Cr",
+      "status": "Ready to Move",
+      "statusColor": "green",
+      "type": "Commercial",
+      "bhk": "Office Spaces",
+      "image": "https://images.pexels.com/photos/2467558/pexels-photo-2467558.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "description": "Premium commercial spaces in the business hub of Noida. Modern office complexes with state-of-the-art facilities.",
+      "overview": "Trident Square is a premium commercial development in Noida's bustling Sector 18. Offering modern office spaces with state-of-the-art facilities, this project is perfect for businesses looking for a prestigious address in one of Delhi NCR's prime commercial hubs.",
+      "features": ["Business Hub", "Modern Infrastructure", "Parking Facility", "24/7 Maintenance"],
+      "possession": "Immediate",
+      "unitSizes": [
+        { "type": "Small Office", "size": "500 sq ft", "price": "₹80L" },
+        { "type": "Medium Office", "size": "1,000 sq ft", "price": "₹1.2 Cr" },
+        { "type": "Large Office", "size": "1,500 sq ft", "price": "₹1.5 Cr" }
+      ],
+      "amenities": [
+        "High-Speed Internet", "Conference Rooms", "Reception Area", "Parking",
+        "Security", "Maintenance", "Power Backup", "Air Conditioning"
+      ],
+      "locationHighlights": [
+        "Sector 18 Business Hub", "Metro Connectivity", "Commercial Center",
+        "Banking Facilities", "Restaurants & Cafes", "Easy Accessibility"
+      ],
+      "gallery": {
+        "images": [
+          "https://images.pexels.com/photos/2467558/pexels-photo-2467558.jpeg?auto=compress&cs=tinysrgb&w=800"
+        ],
+        "videos": []
+      },
+      "faqs": [
+        {
+          "question": "What is the starting price of Trident Square?",
+          "answer": "The starting price for Trident Square is ₹80L for a small office space."
+        }
+      ],
+      "reviews": [],
+      "contactInfo": {
+        "address": "Sector 18, Noida - 201301",
+        "phone": "+91 98765 43213",
+        "email": "info@tridentsquare.com",
+        "officeHours": "Mon-Sat: 9:00 AM - 6:00 PM"
+      },
+      "seoKeywords": [
+        "Trident Square Layout", "Trident Square Location", "Trident Square Size"
+      ]
+    }
+  ]
+}
