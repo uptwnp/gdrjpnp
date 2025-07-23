@@ -69,15 +69,9 @@
         "Private Screening Theatre"
       ],
       "locationHighlights": [
-        "02 km from Pinjore",
         "05 km from Panchkula",
-        "18 km from Chandigarh",
-        "25 km from Mohali",
-        "16 km from Chandigarh Railway Station",
         "31 km from Chandigarh Airport",
         "Adjacent to Shimla-Kalka Highway (NH-5)",
-        "Near Aravali International & Shemford School",
-        "IT Parks of Panchkula, Chandigarh & Mohali within 14-26 km",
         "Close to Hospitals: Paras (8 km), Alchemist (10 km), PGI (24 km)",
         "Elante Mall - 18 km, DT Mall - 25 km",
         "Panchkula Golf Club (12 km), Chandigarh Golf Club (18 km)",
@@ -183,91 +177,111 @@
       "id": "trident-panipat",
       "name": "Trident Panipat",
       "slug": "trident-panipat",
-      "location": "Sector 18, Panipat, Haryana",
-      "priceRange": "₹80 Lakhs - ₹2.5 Cr",
-      "status": "NEW LAUNCH",
-      "statusColor": "blue",
-      "type": "Residential",
-      "bhk": "Plots & 4-5 BHK Villas",
-      "image": "https://images.pexels.com/photos/221540/pexels-photo-221540.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "description": "An exclusive gated community offering premium residential plots and luxury villas with modern amenities in Panipat.",
-      "overview": "Trident Panipat is a new benchmark for luxury living in the heart of Panipat. This upcoming gated community is designed to offer a secure and upscale lifestyle with its offering of residential plots and lavish 4 & 5 BHK villas. With a focus on quality construction, thoughtful design, and essential amenities, Trident Panipat aims to be the most sought-after address for families looking for a modern and comfortable home.",
+      "location": "Sector 19A, Panipat, Haryana",
+      "priceRange": "NA",
+      "status": "Pre-Launch",
+      "statusColor": "orange",
+      "type": "Residential Plots & Apartments",
+      "bhk": "2 & 3 BHK Apartments, Residential Plots",
+      "image": "https://tester.ygsbhardwaj.com/devender/canva-sael/images/free-paid.png",
+      "description": "Trident Panipat is an upcoming integrated residential project offering plotted development and modern apartments in Sector 19A, Panipat. Strategically located near NH-44 and key infrastructure, it promises a lifestyle enriched with green living and premium amenities.",
+      "overview": "Developed by Trident Realty, Trident Panipat spans around 150 acres and includes residential plots and 2/3 BHK apartments. The project emphasizes sustainable infrastructure, green landscaping, and seamless connectivity. It is currently in pre-launch and is attracting investors due to its high potential location and planned facilities.",
       "features": [
+        "Residential Plots (150–1000 sq. yds.)",
+        "2 & 3 BHK Apartments",
+        "Modern Clubhouse",
         "Gated Community",
-        "Luxury Villas",
-        "Prime Location",
-        "24/7 Security",
-        "Modern Clubhouse"
+        "Strategic Location near NH-44"
       ],
-      "possession": "Mid 2028",
+      "possession": "NA",
       "unitSizes": [
         {
           "type": "Residential Plot",
-          "size": "150 sq. yds",
-          "price": "₹80 Lakhs*"
+          "size": "150 sq. yds – 1000 sq. yds",
+          "price": "NA"
         },
-        { "type": "4 BHK Villa", "size": "2500 sq. ft", "price": "₹1.8 Cr*" },
-        { "type": "5 BHK Villa", "size": "3500 sq. ft", "price": "₹2.5 Cr*" }
+        {
+          "type": "2 BHK Apartment",
+          "size": "NA",
+          "price": "NA"
+        },
+        {
+          "type": "3 BHK Apartment",
+          "size": "NA",
+          "price": "NA"
+        }
       ],
       "amenities": [
         "Clubhouse",
-        "Community Hall",
         "Swimming Pool",
         "Gymnasium",
-        "Landscaped Park",
-        "Kids Play Zone",
-        "Jogging Track",
-        "24/7 Security & CCTV Surveillance",
-        "Gated Entry & Exit",
-        "Power Backup for Common Areas",
-        "Internal Paved Roads",
-        "Convenience Store"
+        "Landscaped Parks",
+        "Jogging & Cycling Tracks",
+        "Children’s Play Area",
+        "Indoor & Outdoor Sports Facilities",
+        "Underground Electrification",
+        "Rainwater Harvesting",
+        "Sewage Treatment Plant",
+        "Wide Internal Roads",
+        "Yoga & Meditation Zone",
+        "Senior Citizen Area",
+        "24×7 Security with CCTV"
       ],
       "locationHighlights": [
-        "Located in the developing Sector 18 of Panipat",
-        "Excellent connectivity via NH-44 (GT Road)",
-        "Close to major industrial hubs like Panipat Refinery & NFL",
-        "5-minute drive to DPS Panipat",
-        "10-minute drive to Mittal's Mega Mall",
-        "Easy access to hospitals, banks, and markets"
+        "Located in Sector 19A, Panipat",
+        "Near NH-44 (Delhi–Chandigarh Highway)",
+        "2.86 km from Panipat Railway Station",
+        "Close to educational institutes, hospitals & shopping malls",
+        "Upcoming metro/rapid transit connectivity",
+        "Easy access to industrial & business hubs"
       ],
       "gallery": {
         "images": [
-          "https://images.pexels.com/photos/221540/pexels-photo-221540.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/1105754/pexels-photo-1105754.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/209291/pexels-photo-209291.jpeg?auto=compress&cs=tinysrgb&w=800"
+          "https://tester.ygsbhardwaj.com/devender/canva-sael/images/free-paid.png"
         ],
         "videos": []
       },
       "faqs": [
         {
-          "question": "What is the starting price at Trident Panipat?",
-          "answer": "Trident Panipat offers residential plots starting from approximately ₹80 Lakhs."
+          "question": "What is Trident Panipat?",
+          "answer": "It is a pre-launch integrated residential project by Trident Realty in Sector 19A, Panipat, offering plots and apartments."
         },
         {
-          "question": "Is this a good investment?",
-          "answer": "Being a new launch in a prime, developing sector of Panipat with modern amenities, it holds strong potential for appreciation and is considered a good investment opportunity."
+          "question": "What types of properties are available?",
+          "answer": "Residential plots ranging from 150 to 1000 sq. yds., and 2 & 3 BHK apartments."
         },
         {
-          "question": "What configurations are available?",
-          "answer": "The project offers residential plots of various sizes, along with options for 4 and 5 BHK luxury villas."
+          "question": "Is the project RERA approved?",
+          "answer": "RERA approval is pending. Please verify with official RERA sources before investment."
+        },
+        {
+          "question": "What amenities are planned?",
+          "answer": "Clubhouse, swimming pool, gym, sports courts, landscaped parks, children's play areas, yoga zones, security, and more."
+        },
+        {
+          "question": "What is the possession timeline?",
+          "answer": "Currently not available. Project is in pre-launch stage."
+        },
+        {
+          "question": "What is the contact number for inquiries?",
+          "answer": "You can call +91 9518091945 or WhatsApp at +91 9138331357."
         }
       ],
       "reviews": [],
       "contactInfo": {
-        "address": "Site Office, Sector 18, Near GT Road, Panipat, Haryana 132103",
-        "phone": "+91 98989 XXXXX",
-        "email": "info@tridentpanipat.com",
-        "officeHours": "Mon-Sat: 10:00 AM - 7:00 PM"
+        "address": "Sector 19A, Panipat, Haryana",
+        "phone": "+91 9518091945",
+        "email": "NA",
+        "officeHours": "NA"
       },
       "seoKeywords": [
-        "Trident Panipat",
-        "Plots in Panipat",
-        "Villas in Panipat",
-        "New project in Panipat",
+        "Trident Panipat Plots",
+        "Trident Panipat Apartments",
+        "Trident Panipat Sector 19A",
         "Trident Realty Panipat",
-        "Residential Property in Sector 18 Panipat",
-        "Buy plot in Panipat"
+        "New Launch Projects Panipat",
+        "Plots near NH-44 Panipat",
+        "Panipat Real Estate Investment"
       ]
     }
   ]
