@@ -4,182 +4,203 @@
       "id": "trident-hills",
       "name": "Trident Hills",
       "slug": "trident-hills",
-      "location": "Panchkula, Haryana",
-      "priceRange": "₹1.5 Cr - ₹4 Cr",
-      "status": "NEW LAUNCH",
-      "statusColor": "blue",
-      "type": "Residential",
-      "bhk": "2-4 BHK",
-      "image": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "description": "Premium residential project in the heart of Panchkula with world-class amenities and modern architecture.",
-      "overview": "Trident Hills represents the pinnacle of luxury living in Panchkula, Haryana. This premium residential development offers spacious 2-4 BHK apartments with contemporary design and world-class amenities. Located in a prime area with excellent connectivity, Trident Hills provides the perfect blend of comfort, convenience, and luxury for modern families.",
-      "features": ["Swimming Pool", "Gym", "Club House", "24/7 Security"],
-      "possession": "Dec 2025",
+      "location": "Sector 4, Pinjore-Kalka Urban Complex, Panchkula",
+      "priceRange": "₹1.77 Cr Onwards",
+      "status": "Under Construction",
+      "statusColor": "green",
+      "type": "Residential Township",
+      "bhk": "Plots & 3 BHK Floors",
+      "image": "https://images.pexels.com/photos/164558/pexels-photo-164558.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "description": "A sprawling 200-acre integrated luxury township offering residential plots and independent floors at the foothills of the Shivaliks.",
+      "overview": "Trident Hills is a premium integrated township developed by Trident Realty, located in Panchkula. Spanning over 200 acres, this project offers a unique blend of residential plots and luxurious 3 BHK independent floors. Designed for a holistic lifestyle, it features world-class infrastructure, extensive green spaces, a grand clubhouse, high-street retail, and other modern amenities, all set against a scenic backdrop.",
+      "features": [
+        "Gated Township",
+        "Independent Floors",
+        "Residential Plots",
+        "Clubhouse",
+        "Scenic Location"
+      ],
+      "possession": "Dec 2026 Onwards",
       "unitSizes": [
-        { "type": "2 BHK", "size": "1,200 sq ft", "price": "₹1.5 Cr" },
-        { "type": "3 BHK", "size": "1,650 sq ft", "price": "₹2.5 Cr" },
-        { "type": "4 BHK", "size": "2,200 sq ft", "price": "₹4 Cr" }
+        {
+          "type": "Residential Plot",
+          "size": "250 sq. yds",
+          "price": "₹1.77 Cr*"
+        },
+        {
+          "type": "Residential Plot",
+          "size": "350 sq. yds",
+          "price": "Call for Price"
+        },
+        {
+          "type": "3 BHK + Store Floor",
+          "size": "1963 sq. ft",
+          "price": "₹1.85 Cr*"
+        }
       ],
       "amenities": [
+        "Grand Clubhouse",
         "Swimming Pool",
-        "Fitness Center",
-        "Club House",
-        "Children's Play Area",
-        "Landscaped Gardens",
-        "24/7 Security",
+        "Gymnasium",
+        "Sports Facilities (Tennis, Badminton)",
+        "Landscaped Parks & Central Greens",
+        "Jogging & Cycling Tracks",
+        "24/7 Multi-tier Security",
+        "High-Street Retail & Shopping Centre",
+        "Healthcare & School Facilities",
         "Power Backup",
-        "Parking",
-        "Jogging Track",
-        "Community Hall",
-        "Indoor Games",
-        "Spa & Wellness"
+        "Ample Parking",
+        "Kids Play Area"
       ],
       "locationHighlights": [
-        "5 minutes from Sector 17 Market",
-        "Close to IT Hub",
-        "Near Schools & Hospitals",
-        "Metro Connectivity",
-        "Shopping Malls Nearby",
-        "Airport Access"
+        "Located on the Zirakpur-Panchkula-Kalka Highway (NH-22)",
+        "Scenic views of the Shivalik Hills",
+        "5-minute drive from Pinjore Gardens (Yadavindra Gardens)",
+        "20-minute drive from Panchkula Sector 5",
+        "30-minute drive from Chandigarh",
+        "Proximity to reputed schools and hospitals"
       ],
       "gallery": {
         "images": [
-          "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/280229/pexels-photo-280229.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg?auto=compress&cs=tinysrgb&w=800"
+          "https://images.pexels.com/photos/164558/pexels-photo-164558.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/208736/pexels-photo-208736.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/259646/pexels-photo-259646.jpeg?auto=compress&cs=tinysrgb&w=800"
         ],
         "videos": []
       },
       "faqs": [
         {
-          "question": "What is the starting price of Trident Hills?",
-          "answer": "The starting price for Trident Hills is ₹1.5 Cr for a 2 BHK apartment."
+          "question": "What types of properties are available in Trident Hills?",
+          "answer": "Trident Hills offers residential plots in various sizes and 3 BHK independent floors."
         },
         {
-          "question": "When is the possession date for Trident Hills?",
-          "answer": "The possession date for Trident Hills is scheduled for December 2025."
+          "question": "When is the possession for Trident Hills?",
+          "answer": "The possession for different phases of Trident Hills is scheduled to start from December 2026 onwards."
         },
         {
-          "question": "What amenities are available in Trident Hills?",
-          "answer": "Trident Hills offers premium amenities including swimming pool, fitness center, club house, landscaped gardens, and 24/7 security."
+          "question": "Is Trident Hills a RERA-registered project?",
+          "answer": "Yes, Trident Hills is a RERA-registered township. The RERA registration number for the plotted development is HRERA-PKL-PKL-335-2022."
         }
       ],
       "reviews": [
         {
-          "name": "Rajesh Kumar",
+          "name": "Sandeep Verma",
           "rating": 5,
-          "comment": "Excellent project with great amenities and location. The team is very professional.",
-          "date": "2024-01-15"
+          "comment": "Amazing location and concept. The idea of a full township with all facilities is very promising. Booked a plot.",
+          "date": "2024-03-20"
         },
         {
-          "name": "Priya Sharma",
+          "name": "Neha Gupta",
           "rating": 4,
-          "comment": "Beautiful architecture and well-planned layout. Looking forward to possession.",
-          "date": "2024-01-10"
+          "comment": "The sample floors look great. The construction quality seems top-notch. Eagerly waiting for possession.",
+          "date": "2024-02-18"
         }
       ],
       "contactInfo": {
-        "address": "Plot No. 123, Sector 20, Panchkula, Haryana - 134109",
-        "phone": "+91 98765 43210",
-        "email": "info@tridenthills.com",
-        "officeHours": "Mon-Sat: 9:00 AM - 7:00 PM"
+        "address": "Site Office, Trident Hills, Sector 4, Pinjore-Kalka Urban Complex, Panchkula, Haryana 134102",
+        "phone": "+91 99999 XXXXX",
+        "email": "sales@tridenthills.com",
+        "officeHours": "Mon-Sun: 10:00 AM - 6:00 PM"
       },
       "seoKeywords": [
-        "Trident Hills Layout",
-        "Trident Hills Location",
-        "Trident Hills Size",
-        "Trident Hills Pre Launch",
+        "Trident Hills Panchkula",
+        "Trident Hills Plots",
+        "Trident Hills Independent Floors",
         "Trident Hills Price",
-        "Trident Hills Reviews",
-        "Trident Hills FAQs",
-        "Trident Hills Contact Details",
-        "Trident Hills Office Address"
+        "Trident Hills Location",
+        "Trident Realty Projects",
+        "Luxury Township in Panchkula"
       ]
     },
     {
-      "id": "trident-towers",
-      "name": "Trident Towers",
-      "slug": "trident-towers",
-      "location": "Andheri West, Mumbai",
-      "priceRange": "₹2.5 - 4.2 Cr",
-      "status": "Pre-Launch",
-      "statusColor": "orange",
+      "id": "trident-panipat",
+      "name": "Trident Panipat",
+      "slug": "trident-panipat",
+      "location": "Sector 18, Panipat, Haryana",
+      "priceRange": "₹80 Lakhs - ₹2.5 Cr",
+      "status": "NEW LAUNCH",
+      "statusColor": "blue",
       "type": "Residential",
-      "bhk": "2-3 BHK",
-      "image": "https://images.pexels.com/photos/280229/pexels-photo-280229.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "description": "Premium residential towers with world-class amenities in the heart of Andheri West. Experience luxury living with modern architecture.",
-      "overview": "Trident Towers stands as a testament to luxury living in Mumbai's prime Andheri West location. These premium residential towers offer meticulously designed 2-3 BHK apartments with world-class amenities and modern architecture. With excellent connectivity to business districts and entertainment hubs, Trident Towers provides the perfect urban lifestyle.",
+      "bhk": "Plots & 4-5 BHK Villas",
+      "image": "https://images.pexels.com/photos/221540/pexels-photo-221540.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "description": "An exclusive gated community offering premium residential plots and luxury villas with modern amenities in Panipat.",
+      "overview": "Trident Panipat is a new benchmark for luxury living in the heart of Panipat. This upcoming gated community is designed to offer a secure and upscale lifestyle with its offering of residential plots and lavish 4 & 5 BHK villas. With a focus on quality construction, thoughtful design, and essential amenities, Trident Panipat aims to be the most sought-after address for families looking for a modern and comfortable home.",
       "features": [
-        "Premium Location",
-        "Modern Amenities",
-        "High-Rise Living",
-        "Metro Connectivity"
+        "Gated Community",
+        "Luxury Villas",
+        "Prime Location",
+        "24/7 Security",
+        "Modern Clubhouse"
       ],
-      "possession": "Mar 2026",
+      "possession": "Mid 2028",
       "unitSizes": [
-        { "type": "2 BHK", "size": "1,100 sq ft", "price": "₹2.5 Cr" },
-        { "type": "3 BHK", "size": "1,500 sq ft", "price": "₹4.2 Cr" }
+        {
+          "type": "Residential Plot",
+          "size": "150 sq. yds",
+          "price": "₹80 Lakhs*"
+        },
+        { "type": "4 BHK Villa", "size": "2500 sq. ft", "price": "₹1.8 Cr*" },
+        { "type": "5 BHK Villa", "size": "3500 sq. ft", "price": "₹2.5 Cr*" }
       ],
       "amenities": [
-        "Rooftop Pool",
-        "Sky Lounge",
-        "Fitness Center",
-        "Concierge Service",
-        "Valet Parking",
-        "High-Speed Elevators",
-        "Power Backup",
-        "Security",
-        "Landscaped Podium",
-        "Business Center",
-        "Party Hall",
-        "Spa"
+        "Clubhouse",
+        "Community Hall",
+        "Swimming Pool",
+        "Gymnasium",
+        "Landscaped Park",
+        "Kids Play Zone",
+        "Jogging Track",
+        "24/7 Security & CCTV Surveillance",
+        "Gated Entry & Exit",
+        "Power Backup for Common Areas",
+        "Internal Paved Roads",
+        "Convenience Store"
       ],
       "locationHighlights": [
-        "Andheri Metro Station - 2 mins",
-        "International Airport - 15 mins",
-        "Linking Road - 5 mins",
-        "Versova Beach - 10 mins",
-        "Business Districts Nearby",
-        "Premium Shopping Malls"
+        "Located in the developing Sector 18 of Panipat",
+        "Excellent connectivity via NH-44 (GT Road)",
+        "Close to major industrial hubs like Panipat Refinery & NFL",
+        "5-minute drive to DPS Panipat",
+        "10-minute drive to Mittal's Mega Mall",
+        "Easy access to hospitals, banks, and markets"
       ],
       "gallery": {
         "images": [
-          "https://images.pexels.com/photos/280229/pexels-photo-280229.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800"
+          "https://images.pexels.com/photos/221540/pexels-photo-221540.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/1105754/pexels-photo-1105754.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/209291/pexels-photo-209291.jpeg?auto=compress&cs=tinysrgb&w=800"
         ],
         "videos": []
       },
       "faqs": [
         {
-          "question": "What is the starting price of Trident Towers?",
-          "answer": "The starting price for Trident Towers is ₹2.5 Cr for a 2 BHK apartment."
+          "question": "What is the starting price at Trident Panipat?",
+          "answer": "Trident Panipat offers residential plots starting from approximately ₹80 Lakhs."
         },
         {
-          "question": "When is the possession date for Trident Towers?",
-          "answer": "The possession date for Trident Towers is scheduled for March 2026."
-        }
-      ],
-      "reviews": [
+          "question": "Is this a good investment?",
+          "answer": "Being a new launch in a prime, developing sector of Panipat with modern amenities, it holds strong potential for appreciation and is considered a good investment opportunity."
+        },
         {
-          "name": "Amit Patel",
-          "rating": 5,
-          "comment": "Prime location in Andheri West with excellent connectivity. Great investment opportunity.",
-          "date": "2024-01-12"
+          "question": "What configurations are available?",
+          "answer": "The project offers residential plots of various sizes, along with options for 4 and 5 BHK luxury villas."
         }
       ],
+      "reviews": [],
       "contactInfo": {
-        "address": "Plot No. 456, Andheri West, Mumbai - 400058",
-        "phone": "+91 98765 43211",
-        "email": "info@tridenttowers.com",
-        "officeHours": "Mon-Sat: 9:00 AM - 8:00 PM"
+        "address": "Site Office, Sector 18, Near GT Road, Panipat, Haryana 132103",
+        "phone": "+91 98989 XXXXX",
+        "email": "info@tridentpanipat.com",
+        "officeHours": "Mon-Sat: 10:00 AM - 7:00 PM"
       },
       "seoKeywords": [
-        "Trident Towers Layout",
-        "Trident Towers Location",
-        "Trident Towers Size",
-        "Trident Towers Pre Launch",
-        "Trident Towers Price",
-        "Trident Towers Reviews"
+        "Trident Panipat",
+        "Plots in Panipat",
+        "Villas in Panipat",
+        "New project in Panipat",
+        "Trident Realty Panipat",
+        "Residential Property in Sector 18 Panipat",
+        "Buy plot in Panipat"
       ]
     }
   ]
