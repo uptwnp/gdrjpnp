@@ -11,11 +11,34 @@ const ContactModal = ({ isOpen, onClose, type, projectName }) => {
 
   if (!isOpen) return null;
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission
-    console.log("Form submitted:", formData);
-    setShowSuccess(true);
+
+    try {
+      const response = await fetch(
+        "https://prop.digiheadway.in/api/submit.php",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            name: formData.name,
+            phone: formData.phone,
+            budget: formData.budget,
+          }),
+        }
+      );
+
+      if (response.ok) {
+        console.log("Data saved successfully");
+        setShowSuccess(true); // show thank you message or modal
+      } else {
+        console.error("Failed to save data");
+      }
+    } catch (error) {
+      console.error("Error occurred:", error);
+    }
   };
 
   const handleWhatsApp = () => {
