@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   MapPin,
   Star,
@@ -8,7 +8,7 @@ import {
   ChevronDown,
   ChevronUp,
   MessageSquare,
-} from 'lucide-react';
+} from "lucide-react";
 
 const ProjectContact = ({
   project,
@@ -24,7 +24,7 @@ const ProjectContact = ({
       <Star
         key={i}
         className={`h-4 w-4 transition-colors ${
-          i < rating ? 'text-yellow-400 fill-current' : 'text-gray-300'
+          i < rating ? "text-yellow-400 fill-current" : "text-gray-300"
         }`}
       />
     ));
@@ -159,7 +159,7 @@ const ProjectContact = ({
                   Call Now
                 </h3>
                 <p className="text-base font-semibold text-gray-900 mb-3">
-                  {project.contactInfo.phone}
+                  9138331357
                 </p>
                 <button
                   onClick={handleCall}
@@ -180,7 +180,7 @@ const ProjectContact = ({
                   Quick Response
                 </p>
                 <button
-                  onClick={() => handleWhatsApp('pricing')}
+                  onClick={() => handleWhatsApp("pricing")}
                   className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors font-semibold text-sm"
                 >
                   WhatsApp
@@ -193,11 +193,11 @@ const ProjectContact = ({
                 </div>
                 <h3 className="text-lg font-bold text-gray-900 mb-1">Email</h3>
                 <p className="text-base font-semibold text-gray-900 mb-3 break-words">
-                  {project.contactInfo.email}
+                  info@tridentrealityinfo.com
                 </p>
                 <button
                   onClick={() =>
-                    (window.location.href = `mailto:${project.contactInfo.email}`)
+                    (window.location.href = `mailto:info@tridentrealityinfo.com`)
                   }
                   className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors font-semibold text-sm"
                 >
