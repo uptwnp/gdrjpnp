@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Download,
   IndianRupee,
@@ -6,7 +6,7 @@ import {
   X,
   MessageSquare,
   Layout,
-} from 'lucide-react';
+} from "lucide-react";
 
 const ProjectModals = ({
   project,
@@ -36,14 +36,14 @@ const ProjectModals = ({
       </div>
       <h3 className="text-xl font-bold text-gray-900 mb-4">Thank You!</h3>
       <p className="text-gray-600 mb-6">
-        {modalType === 'brochure' &&
+        {modalType === "brochure" &&
           "Your request has been sent. You'll receive the brochure shortly."}
-        {modalType === 'pricing' &&
-          'Our team will contact you with detailed pricing information.'}
-        {modalType === 'video' &&
-          'Video access will be provided shortly via WhatsApp or call.'}
-        {modalType === 'layout' &&
-          'Detailed layout plans will be shared with you shortly.'}
+        {modalType === "pricing" &&
+          "Our team will contact you with detailed pricing information."}
+        {modalType === "video" &&
+          "Video access will be provided shortly via WhatsApp or call."}
+        {modalType === "layout" &&
+          "Detailed layout plans will be shared with you shortly."}
       </p>
       <div className="space-y-3 mb-6">
         <button
@@ -75,7 +75,7 @@ const ProjectModals = ({
     title,
     icon,
     buttonText,
-    buttonColorClass = 'bg-blue-600 hover:bg-blue-700'
+    buttonColorClass = "bg-blue-600 hover:bg-blue-700"
   ) => (
     <>
       <div className="flex items-center justify-between mb-4">
@@ -115,7 +115,7 @@ const ProjectModals = ({
             type="tel"
             required
             className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-            placeholder="+91 98765 43210"
+            placeholder="9138331357"
             value={formData.phone}
             onChange={(e) =>
               setFormData({ ...formData, phone: e.target.value })
@@ -171,49 +171,49 @@ const ProjectModals = ({
             <div
               className="fixed inset-0 transition-opacity bg-gray-500 bg-opacity-75"
               onClick={() => {
-                if (showBrochureModal) resetForm('brochure');
-                if (showPricingModal) resetForm('pricing');
-                if (showVideoLeadModal) resetForm('video');
-                if (showLayoutModal) resetForm('layout');
+                if (showBrochureModal) resetForm("brochure");
+                if (showPricingModal) resetForm("pricing");
+                if (showVideoLeadModal) resetForm("video");
+                if (showLayoutModal) resetForm("layout");
               }}
             ></div>
             <div className="inline-block w-full max-w-md p-4 sm:p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
               {showBrochureModal &&
                 (showSuccess
-                  ? renderSuccessMessage('brochure')
+                  ? renderSuccessMessage("brochure")
                   : renderForm(
-                      'brochure',
-                      'Download Brochure',
+                      "brochure",
+                      "Download Brochure",
                       <Download className="h-6 w-6 text-blue-600 mr-3" />,
-                      'Download Brochure'
+                      "Download Brochure"
                     ))}
               {showPricingModal &&
                 (showSuccess
-                  ? renderSuccessMessage('pricing')
+                  ? renderSuccessMessage("pricing")
                   : renderForm(
-                      'pricing',
+                      "pricing",
                       `Get Pricing - ${project?.name}`,
                       <IndianRupee className="h-6 w-6 text-blue-600 mr-3" />,
-                      'Submit Request'
+                      "Submit Request"
                     ))}
               {showVideoLeadModal &&
                 (showSuccess
-                  ? renderSuccessMessage('video')
+                  ? renderSuccessMessage("video")
                   : renderForm(
-                      'video',
+                      "video",
                       `Watch ${project?.name} Video`,
                       videoIcon,
-                      'Watch Video Now',
-                      'bg-red-500 hover:bg-red-600'
+                      "Watch Video Now",
+                      "bg-red-500 hover:bg-red-600"
                     ))}
               {showLayoutModal &&
                 (showSuccess
-                  ? renderSuccessMessage('layout')
+                  ? renderSuccessMessage("layout")
                   : renderForm(
-                      'layout',
-                      'View Layout Plans',
+                      "layout",
+                      "View Layout Plans",
                       <Layout className="h-6 w-6 text-blue-600 mr-3" />,
-                      'View Layout Plans'
+                      "View Layout Plans"
                     ))}
             </div>
           </div>

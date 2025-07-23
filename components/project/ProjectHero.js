@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   MapPin,
   Download,
@@ -15,7 +15,7 @@ import {
   Dumbbell,
   Building,
   Shield,
-} from 'lucide-react';
+} from "lucide-react";
 
 const ProjectHero = ({
   project,
@@ -25,14 +25,14 @@ const ProjectHero = ({
 }) => {
   const getStatusColor = (color) => {
     switch (color) {
-      case 'blue':
-        return 'text-blue-500 bg-blue-50 border-blue-200';
-      case 'orange':
-        return 'text-orange-500 bg-orange-50 border-orange-200';
-      case 'green':
-        return 'text-green-500 bg-green-50 border-green-200';
+      case "blue":
+        return "text-blue-500 bg-blue-50 border-blue-200";
+      case "orange":
+        return "text-orange-500 bg-orange-50 border-orange-200";
+      case "green":
+        return "text-green-500 bg-green-50 border-green-200";
       default:
-        return 'text-gray-500 bg-gray-50 border-gray-200';
+        return "text-gray-500 bg-gray-50 border-gray-200";
     }
   };
 
@@ -63,7 +63,7 @@ const ProjectHero = ({
             <div className="hidden md:flex items-center space-x-4 text-sm">
               <span className="flex items-center">
                 <Phone className="h-4 w-4 mr-1" />
-                +91 98765 43210
+                9138331357
               </span>
               <span className="text-blue-200">|</span>
               <span>15+ Years Experience</span>
@@ -214,21 +214,36 @@ const ProjectHero = ({
                     className="bg-blue-50 p-3 sm:p-4 rounded-xl text-center hover:bg-blue-100 transition-colors duration-300 transform hover:scale-105"
                   >
                     <div className="h-6 w-6 md:h-8 md:w-8 text-blue-600 mx-auto mb-2 flex items-center justify-center">
-                      {feature.toLowerCase().includes('pool') && <Waves className="h-5 w-5 md:h-6 md:w-6" />}
-                      {feature.toLowerCase().includes('gym') && <Dumbbell className="h-5 w-5 md:h-6 md:w-6" />}
-                      {feature.toLowerCase().includes('club') && <Building className="h-5 w-5 md:h-6 md:w-6" />}
-                      {feature.toLowerCase().includes('security') && <Shield className="h-5 w-5 md:h-6 md:w-6" />}
-                      {feature.toLowerCase().includes('location') && <MapPin className="h-5 w-5 md:h-6 md:w-6" />}
-                      {feature.toLowerCase().includes('amenities') && <Award className="h-5 w-5 md:h-6 md:w-6" />}
-                      {feature.toLowerCase().includes('connectivity') && <TrendingUp className="h-5 w-5 md:h-6 md:w-6" />}
-                      {!feature.toLowerCase().includes('pool') && 
-                       !feature.toLowerCase().includes('gym') && 
-                       !feature.toLowerCase().includes('club') && 
-                       !feature.toLowerCase().includes('security') && 
-                       !feature.toLowerCase().includes('location') && 
-                       !feature.toLowerCase().includes('amenities') && 
-                       !feature.toLowerCase().includes('connectivity') && 
-                       <Home className="h-5 w-5 md:h-6 md:w-6" />}
+                      {feature.toLowerCase().includes("pool") && (
+                        <Waves className="h-5 w-5 md:h-6 md:w-6" />
+                      )}
+                      {feature.toLowerCase().includes("gym") && (
+                        <Dumbbell className="h-5 w-5 md:h-6 md:w-6" />
+                      )}
+                      {feature.toLowerCase().includes("club") && (
+                        <Building className="h-5 w-5 md:h-6 md:w-6" />
+                      )}
+                      {feature.toLowerCase().includes("security") && (
+                        <Shield className="h-5 w-5 md:h-6 md:w-6" />
+                      )}
+                      {feature.toLowerCase().includes("location") && (
+                        <MapPin className="h-5 w-5 md:h-6 md:w-6" />
+                      )}
+                      {feature.toLowerCase().includes("amenities") && (
+                        <Award className="h-5 w-5 md:h-6 md:w-6" />
+                      )}
+                      {feature.toLowerCase().includes("connectivity") && (
+                        <TrendingUp className="h-5 w-5 md:h-6 md:w-6" />
+                      )}
+                      {!feature.toLowerCase().includes("pool") &&
+                        !feature.toLowerCase().includes("gym") &&
+                        !feature.toLowerCase().includes("club") &&
+                        !feature.toLowerCase().includes("security") &&
+                        !feature.toLowerCase().includes("location") &&
+                        !feature.toLowerCase().includes("amenities") &&
+                        !feature.toLowerCase().includes("connectivity") && (
+                          <Home className="h-5 w-5 md:h-6 md:w-6" />
+                        )}
                     </div>
                     <span className="text-xs sm:text-sm font-medium text-gray-700">
                       {feature}
