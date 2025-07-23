@@ -178,17 +178,17 @@
       "name": "Trident Panipat",
       "slug": "trident-panipat",
       "location": "Sector 19A, Panipat, Haryana",
-      "priceRange": "NA",
-      "status": "Pre-Launch",
+      "priceRange": "2 Cr ++",
+      "status": "Pre-Launch Soon",
       "statusColor": "orange",
       "type": "Residential Plots & Apartments",
-      "bhk": "2 & 3 BHK Apartments, Residential Plots",
-      "image": "https://tester.ygsbhardwaj.com/devender/canva-sael/images/free-paid.png",
-      "description": "Trident Panipat is an upcoming integrated residential project offering plotted development and modern apartments in Sector 19A, Panipat. Strategically located near NH-44 and key infrastructure, it promises a lifestyle enriched with green living and premium amenities.",
-      "overview": "Developed by Trident Realty, Trident Panipat spans around 150 acres and includes residential plots and 2/3 BHK apartments. The project emphasizes sustainable infrastructure, green landscaping, and seamless connectivity. It is currently in pre-launch and is attracting investors due to its high potential location and planned facilities.",
+      "bhk": "Residential Plots",
+      "image": "/img/hills/Trident-hills-photos-2.png",
+      "description": "Trident Panipat is an upcoming integrated residential project offering plotted development in Sector 19A, Panipat. Strategically located near NH-44 and key infrastructure, it promises a lifestyle enriched with green living and premium amenities.",
+      "overview": "Developed by Trident Realty, Trident Panipat spans around 150 acres of residential plots. The project emphasizes sustainable infrastructure, green landscaping, and seamless connectivity. It is currently in pre-launch and is attracting investors due to its high potential location and planned facilities.",
       "features": [
-        "Residential Plots (150–1000 sq. yds.)",
-        "2 & 3 BHK Apartments",
+        "Residential Plots",
+        "Prime Locality",
         "Modern Clubhouse",
         "Gated Community",
         "Strategic Location near NH-44"
@@ -197,17 +197,7 @@
       "unitSizes": [
         {
           "type": "Residential Plot",
-          "size": "150 sq. yds – 1000 sq. yds",
-          "price": "NA"
-        },
-        {
-          "type": "2 BHK Apartment",
-          "size": "NA",
-          "price": "NA"
-        },
-        {
-          "type": "3 BHK Apartment",
-          "size": "NA",
+          "size": "270 sq. yds – 1000 sq. yds",
           "price": "NA"
         }
       ],
@@ -237,7 +227,14 @@
       ],
       "gallery": {
         "images": [
-          "https://tester.ygsbhardwaj.com/devender/canva-sael/images/free-paid.png"
+          "/img/hills/Trident-hills-photos-1.png",
+          "/img/hills/Trident-hills-photos-2.png",
+          "/img/hills/Trident-hills-photos-3.png",
+          "/img/hills/Trident-hills-photos-4.png",
+          "/img/hills/Trident-hills-photos-5.png",
+          "/img/hills/Trident-hills-photos-6.png",
+          "/img/hills/Trident-hills-photos-7.png",
+          "/img/hills/Trident-hills-photos-8.png"
         ],
         "videos": []
       },
@@ -248,11 +245,11 @@
         },
         {
           "question": "What types of properties are available?",
-          "answer": "Residential plots ranging from 150 to 1000 sq. yds., and 2 & 3 BHK apartments."
+          "answer": "Residential plots ranging from 270 to 1000 sq. yds."
         },
         {
           "question": "Is the project RERA approved?",
-          "answer": "RERA approval is pending. Please verify with official RERA sources before investment."
+          "answer": "Not yet but soon it will be rera approved."
         },
         {
           "question": "What amenities are planned?",
@@ -264,13 +261,13 @@
         },
         {
           "question": "What is the contact number for inquiries?",
-          "answer": "You can call +91 9518091945 or WhatsApp at +91 9138331357."
+          "answer": "You can call +91 9138331357 or WhatsApp at +91 9138331357."
         }
       ],
       "reviews": [],
       "contactInfo": {
         "address": "Sector 19A, Panipat, Haryana",
-        "phone": "+91 9518091945",
+        "phone": "+91 9138331357",
         "email": "NA",
         "officeHours": "NA"
       },
