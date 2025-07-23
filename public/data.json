@@ -4,23 +4,23 @@
       "id": "trident-hills",
       "name": "Trident Hills",
       "slug": "trident-hills",
-      "location": "Sector 4, Pinjore-Kalka Urban Complex, Panchkula",
+      "location": "Sector 4, Pinjore-Kalka Urban Complex, Panchkula, Haryana 134102",
       "priceRange": "₹1.08 Cr Onwards",
-      "status": "Under Construction",
-      "statusColor": "green",
+      "status": "Possession Started",
+      "statusColor": "blue",
       "type": "Residential Township",
-      "bhk": "Plots & 4 BHK Floors",
+      "bhk": "Plots, Villas & 4 BHK Floors",
       "image": "/img/trident-hills.png",
-      "description": "A 200-acre premium township at the foothills of the Shivaliks offering luxury plots, floors, villas, and commercial spaces.",
-      "overview": "Trident Hills is a luxurious integrated township project by Trident Realty, located in Sector 4, Pinjore, Panchkula. Spread across 200 acres, it offers residential plots, premium low-rise floors, villas, and group housing with top-class amenities like a grand clubhouse, landscaped gardens, and 24x7 security. Its strategic location on NH-44 provides excellent connectivity to Chandigarh, Mohali, and Delhi.",
+      "description": "Trident Hills is a 200-acre premium integrated township nestled at the foothills of the Shivalik Hills, offering residential plots, premium floors, villas, and commercial spaces with world-class lifestyle amenities.",
+      "overview": "Welcome to Trident Hills — a 200-acre township designed for privileged living surrounded by the natural beauty of the Shivaliks. Strategically located on the Zirakpur-Kalka Highway (NH-5) in Pinjore, Panchkula, this gated community offers lush green surroundings, a state-of-the-art clubhouse 'The Azaleas', landscaped open areas, and a congestion-free environment. Developed by Trident Realty, this township is future-ready, backed by world-class infrastructure and promising high investment potential.",
       "features": [
-        "Gated Township with 24x7 Security",
-        "Residential Plots and Villas",
-        "4 BHK Premium Floors",
-        "Luxury Clubhouse 'The Azaleas'",
-        "Scenic Foothill Location"
+        "Integrated 200-acre Gated Township",
+        "Low-rise Premium Floors & Villas",
+        "Scenic Foothills Location",
+        "Future-Ready Smart Infrastructure",
+        "RERA Registered"
       ],
-      "possession": "Aug 2027 (as per HRERA)",
+      "possession": "Possession Started",
       "unitSizes": [
         {
           "type": "Residential Plot",
@@ -33,96 +33,112 @@
           "price": "Call for Price"
         },
         {
-          "type": "4 BHK Floor",
+          "type": "4 BHK Independent Floor",
           "size": "1963 sq. ft",
           "price": "₹2.52 Cr*"
         }
       ],
       "amenities": [
-        "Clubhouse - The Azaleas",
-        "Banquet Halls",
-        "Swimming Pool",
-        "Gymnasium",
-        "Cricket Pitch",
-        "Squash & Table Tennis",
-        "Golf Course",
-        "Indoor Games (Billiards, Chess)",
-        "Jogging & Cycling Tracks",
-        "Theme & Herb Gardens",
-        "Children's Play Area",
-        "Power Backup",
+        "Grand Clubhouse - The Azaleas",
+        "Swimming Pool with Open Bar",
+        "Spa, Sauna & Yoga Studio",
+        "Indoor Games & Virtual Golf",
+        "Senior Citizen Rooms",
+        "Valet Parking & Guest Rooms",
+        "Medical Centre with Nursing Facility",
+        "Nursery & Primary Schools",
+        "Herb Garden & Themed Gardens",
+        "Landscape Green Areas",
         "Electric Car Charging Points",
-        "Medical Center with Nursing Unit",
-        "Nursery/Primary School",
-        "Smart Streetlights & Solar Lighting",
-        "Rainwater Harvesting",
-        "Sewage Treatment Plant"
+        "Smart Streetlights",
+        "Power Backup",
+        "CCTV Surveillance & Control Center",
+        "Children's Play Zone & Activity Studios",
+        "Amphitheatre"
+      ],
+      "clubAmenities": [
+        "Banquet Hall & Party Lawns",
+        "Bars, Lounges & Cafés",
+        "Snooker, Cards & Chess Rooms",
+        "Terrace Seating & Auditoriums",
+        "Tennis, Basketball & Cricket Pitch",
+        "Foosball, Air Hockey, Table Tennis",
+        "Badminton, Squash, Virtual Golf",
+        "Pilates & Aerobics Studio",
+        "Children's Dance, Music & Art Studio",
+        "Private Screening Theatre"
       ],
       "locationHighlights": [
-        "Situated on Zirakpur-Panchkula-Kalka Highway (NH-44)",
-        "2 km from Pinjore, 5 km from Panchkula",
-        "18 km from Chandigarh, 25 km from Mohali",
+        "02 km from Pinjore",
+        "05 km from Panchkula",
+        "18 km from Chandigarh",
+        "25 km from Mohali",
         "16 km from Chandigarh Railway Station",
         "31 km from Chandigarh Airport",
-        "Close to IT parks, schools, malls & hospitals",
-        "Near Yadavindra (Pinjore) Gardens"
+        "Adjacent to Shimla-Kalka Highway (NH-5)",
+        "Near Aravali International & Shemford School",
+        "IT Parks of Panchkula, Chandigarh & Mohali within 14-26 km",
+        "Close to Hospitals: Paras (8 km), Alchemist (10 km), PGI (24 km)",
+        "Elante Mall - 18 km, DT Mall - 25 km",
+        "Panchkula Golf Club (12 km), Chandigarh Golf Club (18 km)",
+        "Morni Hills (26 km), Sukhna Lake (20 km), Wildlife Reserves nearby"
       ],
       "gallery": {
         "images": [
-          "https://images.pexels.com/photos/164558/pexels-photo-164558.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/208736/pexels-photo-208736.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/259646/pexels-photo-259646.jpeg?auto=compress&cs=tinysrgb&w=800"
+          "/img/trident-hills.png",
+          "/img/trident-hills-2.png",
+          "/img/trident-hills-3.png"
         ],
         "videos": []
       },
       "faqs": [
         {
           "question": "What is Trident Hills?",
-          "answer": "Trident Hills is a 200-acre premium township project by Trident Realty located in Pinjore, Panchkula. It offers a mix of plots, floors, villas, and commercial spaces."
+          "answer": "Trident Hills is a 200-acre integrated residential township located in Pinjore, Panchkula at the foothills of the Shivalik range."
         },
         {
-          "question": "What types of properties are available in Trident Hills?",
-          "answer": "Trident Hills offers Residential Plots, Low-rise Premium Floors, Villas, Group Housing and Commercial Spaces."
+          "question": "What does Trident Hills offer?",
+          "answer": "It offers residential plots, low-rise premium floors, villas, group housing, and commercial spaces."
         },
         {
           "question": "Where is Trident Hills located?",
-          "answer": "It is located in Sector 4, Panchkula-Kalka Urban Complex, Pinjore, Panchkula (Haryana), 134102."
+          "answer": "It is situated in Sector 4, Pinjore-Kalka Urban Complex, Panchkula, Haryana 134102."
         },
         {
-          "question": "What plot sizes are available in Trident Hills?",
-          "answer": "Plots are available in 150, 250, 350, 500, and 1000 sq. yards."
+          "question": "What are the project amenities?",
+          "answer": "Amenities include green landscapes, clubhouse, herb gardens, car charging points, smart street lights, command center, CCTV, medical and educational facilities, power backup, and amphitheatre."
         },
         {
-          "question": "How many residential plots are there?",
-          "answer": "There are 682 residential plots in Trident Hills."
+          "question": "What makes Trident Hills unique?",
+          "answer": "Its scenic location at the foothills of the Shivaliks, 200-acre scale, future-ready infrastructure, and lush green surroundings make it stand out."
         },
         {
-          "question": "What are the prices of plots and floors?",
-          "answer": "Plots start at ₹1.08 Cr and 4 BHK independent floors start from ₹2.52 Cr."
+          "question": "What is available inside the clubhouse?",
+          "answer": "The Azaleas clubhouse includes banquet, bars, cafes, gaming zones, indoor sports, gym, spa, yoga studio, kids activity zones, and even a private screening theatre."
         },
         {
-          "question": "When is possession?",
-          "answer": "Possession is expected from August 2027 onwards."
+          "question": "What are the locational advantages?",
+          "answer": "Excellent connectivity to Chandigarh, Mohali, Shimla; proximity to hospitals, schools, malls, and IT hubs; located on NH-5."
         },
         {
-          "question": "Is Trident Hills RERA registered?",
-          "answer": "Yes. HRERA-PKL-PKL-355-2022 and HRERA-PKL-PKL-356-2022 dated 30.09.2022."
+          "question": "What is the starting price?",
+          "answer": "Residential plots start from ₹1.08 Cr onwards. Floors start from ₹2.52 Cr."
         },
         {
-          "question": "Which banks offer home loans?",
-          "answer": "Banks like HDFC, SBI, LIC Housing Finance, and Bajaj Finance are offering home loans for this project."
+          "question": "Are there flexible payment plans?",
+          "answer": "Yes. Time & Development Linked Plans and Down Payment Plans are available."
         },
         {
-          "question": "Is the area safe?",
-          "answer": "Yes, Sector 4 is rated safe by local residents (4/5)."
+          "question": "What is the possession date?",
+          "answer": "Possession has already started, depending on phase and unit type."
         },
         {
-          "question": "What are nearby hospitals?",
-          "answer": "Nearby hospitals include Khera Hospital and J N Shori Multi Speciality Hospital."
+          "question": "Is it RERA registered?",
+          "answer": "Yes. HRERA-PKL-PKL-355-2022 and HRERA-PKL-PKL-356-2022 (both dated 30.09.2022)."
         },
         {
-          "question": "Any nearby schools?",
-          "answer": "Yes, Aravali International School is just 1 km away and DPS Panchkula is 13 km away."
+          "question": "Which banks are offering home loans?",
+          "answer": "Banks like HDFC, SBI, LIC Housing Finance, and Bajaj Finance are supporting the project."
         }
       ],
       "reviews": [
@@ -148,11 +164,14 @@
       "seoKeywords": [
         "Trident Hills Panchkula",
         "Trident Hills Plots",
-        "Trident Hills Villas",
         "Trident Hills Independent Floors",
+        "Trident Hills Price",
         "Trident Hills Location",
         "Trident Realty Projects",
-        "Luxury Township in Panchkula"
+        "Luxury Township in Panchkula",
+        "Trident Hills Villas",
+        "Trident Hills Clubhouse",
+        "Plots in Pinjore"
       ]
     },
     {
