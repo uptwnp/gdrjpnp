@@ -280,6 +280,125 @@
         "Plots near NH-44 Panipat",
         "Panipat Real Estate Investment"
       ]
+    },
+    {
+      "id": "trident-kundli",
+      "name": "Trident Kundli",
+      "slug": "trident-kundli",
+      "location": "Kundli, Sonipat, Haryana",
+      "priceRange": "On Request",
+      "status": "Pre‑Launch",
+      "statusColor": "orange",
+      "type": "Residential Plots & Apartments",
+      "bhk": "2, 3 & 4 BHK Apartments; Residential Plots",
+      "image": "/img/hills/Trident-hills-photos-1.png",
+      "description": "An upcoming project offering residential plots and 2–4 BHK apartments in Kundli, Sonipat, with modern amenities and strategic NCR-location.",
+      "overview": "Trident Kundli is a pre‑launch township featuring custom plots and 2–4 BHK apartments, located near NH‑44 and the KMP Expressway. Designed to promote luxury, green living, and community-focused lifestyle with modern conveniences :contentReference[oaicite:3]{index=3}.",
+      "features": [
+        "Custom Residential Plots",
+        "2, 3 & 4 BHK Apartments",
+        "Clubhouse, Gym & Pool",
+        "Indoor/Outdoor Sports",
+        "Mini Theatre",
+        "Green landscaped zones",
+        "Sustainability features"
+      ],
+      "possession": "NA",
+      "unitSizes": [
+        {
+          "type": "Residential Plot",
+          "size": "NA",
+          "price": "On Request"
+        },
+        {
+          "type": "2 BHK Apartment",
+          "size": "NA",
+          "price": "On Request"
+        },
+        {
+          "type": "3 BHK Apartment",
+          "size": "NA",
+          "price": "On Request"
+        },
+        {
+          "type": "4 BHK Apartment",
+          "size": "NA",
+          "price": "On Request"
+        }
+      ],
+      "amenities": [
+        "Clubhouse",
+        "Swimming Pool",
+        "Gymnasium",
+        "Indoor & Outdoor Sports",
+        "Children’s Play Area",
+        "Landscaped Parks & Jogging Tracks",
+        "Mini Theatre",
+        "Spa & Wellness",
+        "24×7 Security & CCTV",
+        "Parking",
+        "Yoga / Meditation Deck",
+        "Senior Citizen Zone",
+        "Rainwater Harvesting",
+        "Power Backup"
+      ],
+      "locationHighlights": [
+        "Located in Kundli, Sonipat – Delhi‑NCR outskirts",
+        "Near NH‑44 & KMP Expressway",
+        "Excellent connectivity to Delhi & NCR",
+        "Close to schools, hospitals, shopping hubs",
+        "Part of fast-developing industrial/residential corridor"
+      ],
+      "gallery": {
+        "images": [
+          "/img/hills/Trident-hills-photos-1.png",
+          "/img/hills/Trident-hills-photos-2.png",
+          "/img/hills/Trident-hills-photos-3.png",
+          "/img/hills/Trident-hills-photos-4.png",
+          "/img/hills/Trident-hills-photos-5.png",
+          "/img/hills/Trident-hills-photos-6.png",
+          "/img/hills/Trident-hills-photos-7.png",
+          "/img/hills/Trident-hills-photos-8.png"
+        ],
+        "videos": []
+      },
+      "faqs": [
+        {
+          "question": "What is Trident Kundli?",
+          "answer": "An upcoming residential project by Trident Realty offering plots and 2–4 BHK apartments in Kundli, Sonipat."
+        },
+        {
+          "question": "What types of units are available?",
+          "answer": "Custom residential plots and 2, 3 & 4 BHK apartments."
+        },
+        {
+          "question": "What amenities are planned?",
+          "answer": "Clubhouse, pool, gym, sports, spa, mini-theatre, parks, security, sustainability systems, and more."
+        },
+        {
+          "question": "Where is it located?",
+          "answer": "Kundli in Sonipat district, near NH‑44 and KMP Expressway."
+        },
+        {
+          "question": "When is possession?",
+          "answer": "NA – project is in pre‑launch stage."
+        }
+      ],
+      "reviews": [],
+      "contactInfo": {
+        "address": "Kundli, Sonipat, Haryana",
+        "phone": "NA",
+        "email": "NA",
+        "officeHours": "NA"
+      },
+      "seoKeywords": [
+        "Trident Kundli Sonipat",
+        "Trident Plots Kundli",
+        "Trident Kundli Apartments",
+        "Trident Realty Kundli",
+        "Plots in Kundli",
+        "NCR Pre Launch Projects"
+      ]
     }
   ]
 }
