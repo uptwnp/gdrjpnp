@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Download,
   IndianRupee,
@@ -19,12 +19,49 @@ const ProjectModals = ({
   selectedImage,
   formData,
   setFormData,
-  handleFormSubmit,
   showSuccess,
   resetForm,
   handleWhatsApp,
   handleCall,
 }) => {
+  const handleFormSubmit = async (e, type) => {
+    e.preventDefault();
+
+    const interestMap = {
+      brochure: "Download Brochure",
+      pricing: "Get Price Details",
+      video: "Watch Project Video",
+      layout: "View Layout Plans",
+    };
+
+    try {
+      const response = await fetch(
+        "https://prop.digiheadway.in/api/submit.php",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            name: formData.name,
+            phone: formData.phone,
+            email: formData.email || "",
+            interest: interestMap[type] || "Website Lead",
+          }),
+        }
+      );
+
+      if (response.ok) {
+        setShowSuccess(true);
+      } else {
+        alert("Something went wrong while submitting. Please try again.");
+      }
+    } catch (error) {
+      console.error("Form submit error:", error);
+      alert("Network error. Please try again.");
+    }
+  };
+
   const renderSuccessMessage = (modalType) => (
     <div className="text-center">
       <div className="flex items-center justify-center mb-4 sm:mb-6">
@@ -161,7 +198,6 @@ const ProjectModals = ({
 
   return (
     <>
-      {/* Base Modal Structure */}
       {(showBrochureModal ||
         showPricingModal ||
         showVideoLeadModal ||
@@ -220,7 +256,6 @@ const ProjectModals = ({
         </div>
       )}
 
-      {/* Image Modal */}
       {showImageModal && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/90"
