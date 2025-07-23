@@ -35,7 +35,7 @@ const Header = () => {
                 <h1 className="text-xl font-bold text-gray-900">
                   Trident Realty
                 </h1>
-                <p className="text-sm text-gray-600">Premium Properties</p>
+                <p className="text-sm text-gray-600">Project Info</p>
               </div>
             </Link>
 
