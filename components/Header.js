@@ -1,19 +1,19 @@
-import React, { useState } from 'react';
-import Link from 'next/link';
-import { Phone, MessageSquare, Menu, X, Home } from 'lucide-react';
+import React, { useState } from "react";
+import Link from "next/link";
+import { Phone, MessageSquare, Menu, X, Home } from "lucide-react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleCallClick = () => {
-    window.open('tel:+919876543210', '_self');
+    window.open("tel:+919138331357", "_self");
   };
 
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent(
       "Hi! I'm interested in your premium properties. Please share more details."
     );
-    window.open(`https://wa.me/919876543210?text=${message}`, '_blank');
+    window.open(`https://wa.me/919138331357?text=${message}`, "_blank");
   };
 
   return (

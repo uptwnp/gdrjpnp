@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
   return (
@@ -15,13 +15,13 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="text-xl font-bold">Trident Realty</h3>
-                <p className="text-gray-400">Premium Properties</p>
+                <p className="text-gray-400">Projects Details</p>
               </div>
             </div>
             <p className="text-gray-400 mb-4">
               Your trusted partner in finding the perfect property. We
               specialize in premium residential and commercial real estate with
-              a focus on quality and customer satisfaction.{' '}
+              a focus on quality and customer satisfaction.{" "}
               <a
                 href="/privacy-policy"
                 className="text-gray-400 underline hover:text-white transition-colors"
@@ -36,27 +36,27 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
             <div className="space-y-2 text-gray-400">
               <p>
-                📞{' '}
+                📞{" "}
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+919138331358"
                   className="hover:text-white transition-colors"
                 >
-                  +91 98765 43210
+                  +91 9138331357
                 </a>
               </p>
               <p>
-                📧{' '}
+                📧{" "}
                 <a
-                  href="mailto:info@tridentrealty.com"
+                  href="mailto:info@tridentrealityinfo.com"
                   className="hover:text-white transition-colors"
                 >
-                  info@tridentrealty.com
+                  info@tridentrealityinfo..com
                 </a>
               </p>
               <p>
-                💬{' '}
+                💬{" "}
                 <a
-                  href="https://wa.me/919876543210"
+                  href="https://wa.me/919138331357"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"

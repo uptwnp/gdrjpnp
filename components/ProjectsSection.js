@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-import ProjectCard from './ProjectCard';
-import ContactModal from './ContactModal';
-import LoadingSpinner from './ui/LoadingSpinner';
-import ErrorMessage from './ui/ErrorMessage';
+import React, { useState } from "react";
+import ProjectCard from "./ProjectCard";
+import ContactModal from "./ContactModal";
+import LoadingSpinner from "./ui/LoadingSpinner";
+import ErrorMessage from "./ui/ErrorMessage";
 
 const ProjectsSection = ({ projects: serverProjects }) => {
   const [showPreLaunchModal, setShowPreLaunchModal] = useState(false);
-  
+
   // Use server-provided projects or empty array
   const projects = serverProjects || [];
   const loading = false; // No loading state needed for SSR
@@ -40,14 +40,14 @@ const ProjectsSection = ({ projects: serverProjects }) => {
               Trident Reality Projects
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Discover our portfolio of world-class properties.
+              Discover Trident Reality portfolio of world-class properties.
             </p>
           </div>
 
           <div className="space-y-8">
             {projects.map((project, index) => (
               <div key={project.id}>
-                <div style={{ width: '99%' }} className="mx-auto">
+                <div style={{ width: "99%" }} className="mx-auto">
                   <ProjectCard project={project} />
                 </div>
 
@@ -56,11 +56,11 @@ const ProjectsSection = ({ projects: serverProjects }) => {
                   <div className="my-12">
                     <div className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-8 px-6 rounded-2xl text-center mx-auto max-w-4xl">
                       <h3 className="text-2xl font-bold mb-4">
-                        Interested in Pre-Launch Projects?
+                        Interested in Pre-Launch?
                       </h3>
                       <p className="text-lg mb-6 opacity-90">
-                        Call Us to Get Private & Up-to-Date Details on Exclusive
-                        Properties
+                        Invest Early and Book High Profits. <br></br>Get Private
+                        & Exclusive Deals
                       </p>
                       <button
                         onClick={() => setShowPreLaunchModal(true)}
