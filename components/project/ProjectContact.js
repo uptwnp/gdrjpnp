@@ -232,7 +232,7 @@ const ProjectContact = ({
               <div className="flex items-center justify-center text-gray-600 mb-4 sm:mb-6">
                 <Clock className="h-5 w-5 mr-2" />
                 <span className="font-medium text-sm sm:text-base">
-                  {project.contactInfo.officeHours}
+                  10Am to 6Pm Everyday
                 </span>
               </div>
             </div>
