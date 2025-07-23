@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo } from "react";
 import {
   MapPin,
   IndianRupee,
@@ -26,7 +26,7 @@ import {
   MessageSquare,
   Eye,
   Layout,
-} from 'lucide-react';
+} from "lucide-react";
 
 const ProjectInfo = ({
   project,
@@ -40,22 +40,22 @@ const ProjectInfo = ({
 }) => {
   const amenityIcons = useMemo(
     () => ({
-      'Swimming Pool': (
+      "Swimming Pool": (
         <div className="h-6 w-6 bg-blue-100 rounded-full flex items-center justify-center">
           <div className="h-3 w-3 bg-blue-500 rounded-full"></div>
         </div>
       ),
-      'Fitness Center': <Dumbbell className="h-6 w-6 text-red-500" />,
+      "Fitness Center": <Dumbbell className="h-6 w-6 text-red-500" />,
       Gym: <Dumbbell className="h-6 w-6 text-red-500" />,
-      'Club House': <Building className="h-6 w-6 text-purple-500" />,
+      "Club House": <Building className="h-6 w-6 text-purple-500" />,
       Clubhouse: <Building className="h-6 w-6 text-purple-500" />,
       Security: <Shield className="h-6 w-6 text-green-500" />,
-      '24/7 Security': <Shield className="h-6 w-6 text-green-500" />,
+      "24/7 Security": <Shield className="h-6 w-6 text-green-500" />,
       Parking: <Car className="h-6 w-6 text-gray-500" />,
-      'Landscaped Gardens': <Trees className="h-6 w-6 text-green-500" />,
-      'Power Backup': <Zap className="h-6 w-6 text-yellow-500" />,
-      'High-Speed Internet': <Wifi className="h-6 w-6 text-blue-500" />,
-      'Community Hall': <Users className="h-6 w-6 text-indigo-500" />,
+      "Landscaped Gardens": <Trees className="h-6 w-6 text-green-500" />,
+      "Power Backup": <Zap className="h-6 w-6 text-yellow-500" />,
+      "High-Speed Internet": <Wifi className="h-6 w-6 text-blue-500" />,
+      "Community Hall": <Users className="h-6 w-6 text-indigo-500" />,
       "Children's Play Area": <Users className="h-6 w-6 text-pink-500" />,
     }),
     []
@@ -247,7 +247,7 @@ const ProjectInfo = ({
                   </div>
                 </div>
                 <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-                  Located in the heart of {project.location.split(',')[0]}, this
+                  Located in the heart of {project.location.split(",")[0]}, this
                   premium project offers excellent connectivity to major
                   business districts, educational institutions, and
                   entertainment hubs.
@@ -291,10 +291,10 @@ const ProjectInfo = ({
             <div
               className={`grid gap-4 sm:gap-6 ${
                 project.gallery.images.length === 1
-                  ? 'grid-cols-1'
+                  ? "grid-cols-1"
                   : project.gallery.images.length === 2
-                  ? 'grid-cols-1 md:grid-cols-2'
-                  : 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'
+                  ? "grid-cols-1 md:grid-cols-2"
+                  : "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
               }`}
             >
               {project.gallery.images.map((image, index) => (
@@ -398,7 +398,7 @@ const ProjectInfo = ({
                   Starting Price
                 </h3>
                 <p className="text-xl md:text-2xl font-bold text-blue-600">
-                  {project.priceRange.split(' - ')[0]}
+                  {project.priceRange.split(" - ")[0]}
                 </p>
                 <p className="text-sm text-gray-500 mt-1">All inclusive</p>
               </div>
@@ -408,10 +408,10 @@ const ProjectInfo = ({
                   <Calculator className="h-7 w-7 text-green-600" />
                 </div>
                 <h3 className="text-base md:text-lg font-bold text-gray-900 mb-2">
-                  EMI Options
+                  Payment Plan
                 </h3>
                 <p className="text-xl md:text-2xl font-bold text-green-600">
-                  ₹45,000/month
+                  Yes, Available
                 </p>
                 <p className="text-sm text-gray-500 mt-1">Starting from</p>
               </div>
