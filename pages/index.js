@@ -4,8 +4,9 @@ import ProjectsSection from '../components/ProjectsSection';
 import CTASection from '../components/CTASection';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
+import { getProjectsData } from '../lib/data';
 
-export default function Home() {
+export default function Home({ projects }) {
   return (
     <>
       <SEO 
@@ -17,11 +18,31 @@ export default function Home() {
         <Header />
         <main>
           <Hero />
-          <ProjectsSection />
+          <ProjectsSection projects={projects} />
           <CTASection />
         </main>
         <Footer />
       </div>
     </>
   );
+}
+
+export async function getServerSideProps() {
+  try {
+    // Fetch projects data on the server
+    const data = await getProjectsData();
+    
+    return {
+      props: {
+        projects: data.projects || [],
+      },
+    };
+  } catch (error) {
+    console.error('Error fetching projects for SSR:', error);
+    return {
+      props: {
+        projects: [],
+      },
+    };
+  }
 }

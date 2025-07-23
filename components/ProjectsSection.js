@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
 import ProjectCard from './ProjectCard';
 import ContactModal from './ContactModal';
-import { useProjects } from '../hooks/useProjects';
 import LoadingSpinner from './ui/LoadingSpinner';
 import ErrorMessage from './ui/ErrorMessage';
 
-const ProjectsSection = () => {
-  const { projects, loading, error } = useProjects();
+const ProjectsSection = ({ projects: serverProjects }) => {
   const [showPreLaunchModal, setShowPreLaunchModal] = useState(false);
+  
+  // Use server-provided projects or empty array
+  const projects = serverProjects || [];
+  const loading = false; // No loading state needed for SSR
+  const error = null; // No error state needed for SSR
 
   if (loading) {
     return (

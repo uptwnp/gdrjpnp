@@ -2,14 +2,10 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 
-export default function PrivacyPolicy() {
+export default function PrivacyPolicy({ lastUpdated }) {
   return (
     <>
-      <SEO 
-        title="Privacy Policy - Trident Realty"
-        description="Read our privacy policy to understand how Trident Realty collects, uses, and protects your personal information when you use our services."
-        keywords="privacy policy, data protection, personal information, Trident Realty, real estate privacy"
-      />
+      <SEO title="Privacy Policy - Trident Realty" description="Read our privacy policy to understand how Trident Realty collects, uses, and protects your personal information when you use our services." keywords="privacy policy, data protection, personal information, Trident Realty, real estate privacy" />
       <div className="min-h-screen bg-white">
         <Header />
         <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -18,7 +14,7 @@ export default function PrivacyPolicy() {
             
             <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
               <p className="text-blue-800 font-medium">
-                Last updated: January 2024
+                Last updated: {lastUpdated}
               </p>
             </div>
 
@@ -199,4 +195,19 @@ export default function PrivacyPolicy() {
       </div>
     </>
   );
+}
+
+export async function getServerSideProps() {
+  // Generate current date for last updated
+  const lastUpdated = new Date().toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+  
+  return {
+    props: {
+      lastUpdated,
+    },
+  };
 }
