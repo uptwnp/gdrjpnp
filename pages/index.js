@@ -10,9 +10,9 @@ export default function Home({ projects }) {
   return (
     <>
       <SEO
-        title="Trident Reality - All Project Info | New, Pre Launch, Delivered, Under Development"
-        description="Get All Info About Trident Reality Projects,& Updates. Discover Oppertunities to Get Invest in Premium Real Estate. Get expert guidance from our real estate professionals on 9138331357 or by Uptown Properties"
-        keywords="Trident Reality,Trident Reality Projects, Trident Reality Pre Launch, real estate, premium properties, residential, commercial, luxury homes, apartments, property investment, Mumbai, Delhi, Bangalore"
+        title="Trident Realty - All Project Info | New, Pre Launch, Delivered, Under Development"
+        description="Get All Info About Trident Realty Projects,& Updates. Discover Oppertunities to Get Invest in Premium Real Estate. Get expert guidance from our real estate professionals on 9138331357 or by Uptown Properties"
+        keywords="Trident Realty,Trident Reality,Trident Reality Projects, Trident Reality Pre Launch, real estate, premium properties, residential, commercial, luxury homes, apartments, property investment, Mumbai, Delhi, Bangalore"
       />
       <div className="min-h-screen bg-white">
         <Header />
