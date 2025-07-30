@@ -32,14 +32,14 @@ export default function Document() {
           content="Your trusted partner for premium residential and commercial real estate properties."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://tridentrealty.com" />
+        <meta property="og:url" content="https://Godrejrealty.com" />
         <meta property="og:site_name" content="Godrej Properties" />
         <meta property="og:locale" content="en_US" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@tridentrealty" />
-        <meta name="twitter:creator" content="@tridentrealty" />
+        <meta name="twitter:site" content="@Godrejrealty" />
+        <meta name="twitter:creator" content="@Godrejrealty" />
 
         {/* Schema.org markup for SEO */}
         <script
@@ -51,7 +51,7 @@ export default function Document() {
               name: "Godrej Properties",
               description:
                 "Premium residential and commercial real estate properties",
-              url: "https://tridentrealty.com",
+              url: "https://Godrejrealty.com",
               telephone: "+91-98765-43210",
               address: {
                 "@type": "PostalAddress",

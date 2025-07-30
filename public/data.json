@@ -1,18 +1,18 @@
 {
   "projects": [
     {
-      "id": "trident-hills",
-      "name": "Trident Hills",
-      "slug": "trident-hills",
+      "id": "Godrej-hills",
+      "name": "Godrej Hills",
+      "slug": "Godrej-hills",
       "location": "Sector 4, Pinjore-Kalka Urban Complex, Panchkula, Haryana 134102",
       "priceRange": "₹1.08 Cr Onwards",
       "status": "Possession Started",
       "statusColor": "blue",
       "type": "Residential Township",
       "bhk": "Plots, Villas & 4 BHK Floors",
-      "image": "/img/hills/Trident-hills-photos-2.png",
-      "description": "Trident Hills is a 200-acre premium integrated township nestled at the foothills of the Shivalik Hills, offering residential plots, premium floors, villas, and commercial spaces with world-class lifestyle amenities.",
-      "overview": "Welcome to Trident Hills — a 200-acre township designed for privileged living surrounded by the natural beauty of the Shivaliks. Strategically located on the Zirakpur-Kalka Highway (NH-5) in Pinjore, Panchkula, this gated community offers lush green surroundings, a state-of-the-art clubhouse 'The Azaleas', landscaped open areas, and a congestion-free environment. Developed by Godrej Properties, this township is future-ready, backed by world-class infrastructure and promising high investment potential.",
+      "image": "/img/hills/Godrej-hills-photos-2.png",
+      "description": "Godrej Hills is a 200-acre premium integrated township nestled at the foothills of the Shivalik Hills, offering residential plots, premium floors, villas, and commercial spaces with world-class lifestyle amenities.",
+      "overview": "Welcome to Godrej Hills — a 200-acre township designed for privileged living surrounded by the natural beauty of the Shivaliks. Strategically located on the Zirakpur-Kalka Highway (NH-5) in Pinjore, Panchkula, this gated community offers lush green surroundings, a state-of-the-art clubhouse 'The Azaleas', landscaped open areas, and a congestion-free environment. Developed by Godrej Properties, this township is future-ready, backed by world-class infrastructure and promising high investment potential.",
       "features": [
         "Integrated 200-acre Gated Township",
         "Low-rise Premium Floors & Villas",
@@ -79,28 +79,28 @@
       ],
       "gallery": {
         "images": [
-          "/img/hills/Trident-hills-photos-1.png",
-          "/img/hills/Trident-hills-photos-2.png",
-          "/img/hills/Trident-hills-photos-3.png",
-          "/img/hills/Trident-hills-photos-4.png",
-          "/img/hills/Trident-hills-photos-5.png",
-          "/img/hills/Trident-hills-photos-6.png",
-          "/img/hills/Trident-hills-photos-7.png",
-          "/img/hills/Trident-hills-photos-8.png"
+          "/img/hills/Godrej-hills-photos-1.png",
+          "/img/hills/Godrej-hills-photos-2.png",
+          "/img/hills/Godrej-hills-photos-3.png",
+          "/img/hills/Godrej-hills-photos-4.png",
+          "/img/hills/Godrej-hills-photos-5.png",
+          "/img/hills/Godrej-hills-photos-6.png",
+          "/img/hills/Godrej-hills-photos-7.png",
+          "/img/hills/Godrej-hills-photos-8.png"
         ],
         "videos": []
       },
       "faqs": [
         {
-          "question": "What is Trident Hills?",
-          "answer": "Trident Hills is a 200-acre integrated residential township located in Pinjore, Panchkula at the foothills of the Shivalik range."
+          "question": "What is Godrej Hills?",
+          "answer": "Godrej Hills is a 200-acre integrated residential township located in Pinjore, Panchkula at the foothills of the Shivalik range."
         },
         {
-          "question": "What does Trident Hills offer?",
+          "question": "What does Godrej Hills offer?",
           "answer": "It offers residential plots, low-rise premium floors, villas, group housing, and commercial spaces."
         },
         {
-          "question": "Where is Trident Hills located?",
+          "question": "Where is Godrej Hills located?",
           "answer": "It is situated in Sector 4, Pinjore-Kalka Urban Complex, Panchkula, Haryana 134102."
         },
         {
@@ -108,7 +108,7 @@
           "answer": "Amenities include green landscapes, clubhouse, herb gardens, car charging points, smart street lights, command center, CCTV, medical and educational facilities, power backup, and amphitheatre."
         },
         {
-          "question": "What makes Trident Hills unique?",
+          "question": "What makes Godrej Hills unique?",
           "answer": "Its scenic location at the foothills of the Shivaliks, 200-acre scale, future-ready infrastructure, and lush green surroundings make it stand out."
         },
         {
@@ -155,37 +155,37 @@
         }
       ],
       "contactInfo": {
-        "address": "Site Office, Trident Hills, Sector 4, Pinjore-Kalka Urban Complex, Panchkula, Haryana 134102",
+        "address": "Site Office, Godrej Hills, Sector 4, Pinjore-Kalka Urban Complex, Panchkula, Haryana 134102",
         "phone": "+91 9138331357",
         "email": "sales@godrejpropertiesinfo.com.com",
         "officeHours": "Mon-Sun: 10:00 AM - 6:00 PM"
       },
       "seoKeywords": [
-        "Trident Hills Panchkula",
-        "Trident Hills Plots",
-        "Trident Hills Independent Floors",
-        "Trident Hills Price",
-        "Trident Hills Location",
+        "Godrej Hills Panchkula",
+        "Godrej Hills Plots",
+        "Godrej Hills Independent Floors",
+        "Godrej Hills Price",
+        "Godrej Hills Location",
         "Godrej Properties Projects",
         "Luxury Township in Panchkula",
-        "Trident Hills Villas",
-        "Trident Hills Clubhouse",
+        "Godrej Hills Villas",
+        "Godrej Hills Clubhouse",
         "Plots in Pinjore"
       ]
     },
     {
-      "id": "trident-panipat",
-      "name": "Trident Panipat",
-      "slug": "trident-panipat",
+      "id": "Godrej-panipat",
+      "name": "Godrej Panipat",
+      "slug": "Godrej-panipat",
       "location": "Sector 19A, Panipat, Haryana",
       "priceRange": "2 Cr ++",
       "status": "Pre-Launch Soon",
       "statusColor": "orange",
       "type": "Residential Plots & Apartments",
       "bhk": "Residential Plots",
-      "image": "/img/hills/Trident-hills-photos-2.png",
-      "description": "Trident Panipat is an upcoming integrated residential project offering plotted development in Sector 19A, Panipat. Strategically located near NH-44 and key infrastructure, it promises a lifestyle enriched with green living and premium amenities.",
-      "overview": "Developed by Godrej Properties, Trident Panipat spans around 150 acres of residential plots. The project emphasizes sustainable infrastructure, green landscaping, and seamless connectivity. It is currently in pre-launch and is attracting investors due to its high potential location and planned facilities.",
+      "image": "/img/hills/Godrej-hills-photos-2.png",
+      "description": "Godrej Panipat is an upcoming integrated residential project offering plotted development in Sector 19A, Panipat. Strategically located near NH-44 and key infrastructure, it promises a lifestyle enriched with green living and premium amenities.",
+      "overview": "Developed by Godrej Properties, Godrej Panipat spans around 150 acres of residential plots. The project emphasizes sustainable infrastructure, green landscaping, and seamless connectivity. It is currently in pre-launch and is attracting investors due to its high potential location and planned facilities.",
       "features": [
         "Residential Plots",
         "Prime Locality",
@@ -227,20 +227,20 @@
       ],
       "gallery": {
         "images": [
-          "/img/hills/Trident-hills-photos-1.png",
-          "/img/hills/Trident-hills-photos-2.png",
-          "/img/hills/Trident-hills-photos-3.png",
-          "/img/hills/Trident-hills-photos-4.png",
-          "/img/hills/Trident-hills-photos-5.png",
-          "/img/hills/Trident-hills-photos-6.png",
-          "/img/hills/Trident-hills-photos-7.png",
-          "/img/hills/Trident-hills-photos-8.png"
+          "/img/hills/Godrej-hills-photos-1.png",
+          "/img/hills/Godrej-hills-photos-2.png",
+          "/img/hills/Godrej-hills-photos-3.png",
+          "/img/hills/Godrej-hills-photos-4.png",
+          "/img/hills/Godrej-hills-photos-5.png",
+          "/img/hills/Godrej-hills-photos-6.png",
+          "/img/hills/Godrej-hills-photos-7.png",
+          "/img/hills/Godrej-hills-photos-8.png"
         ],
         "videos": []
       },
       "faqs": [
         {
-          "question": "What is Trident Panipat?",
+          "question": "What is Godrej Panipat?",
           "answer": "It is a pre-launch integrated residential project by Godrej Properties in Sector 19A, Panipat, offering plots and apartments."
         },
         {
@@ -272,9 +272,9 @@
         "officeHours": "NA"
       },
       "seoKeywords": [
-        "Trident Panipat Plots",
-        "Trident Panipat Apartments",
-        "Trident Panipat Sector 19A",
+        "Godrej Panipat Plots",
+        "Godrej Panipat Apartments",
+        "Godrej Panipat Sector 19A",
         "Godrej Properties Panipat",
         "New Launch Projects Panipat",
         "Plots near NH-44 Panipat",
@@ -282,18 +282,18 @@
       ]
     },
     {
-      "id": "trident-kundli",
-      "name": "Trident Kundli",
-      "slug": "trident-kundli",
+      "id": "Godrej-kundli",
+      "name": "Godrej Kundli",
+      "slug": "Godrej-kundli",
       "location": "Kundli, Sonipat, Haryana",
       "priceRange": "On Request",
       "status": "Pre‑Launch",
       "statusColor": "orange",
       "type": "Residential Plots & Apartments",
       "bhk": "2, 3 & 4 BHK Apartments; Residential Plots",
-      "image": "/img/hills/Trident-hills-photos-1.png",
+      "image": "/img/hills/Godrej-hills-photos-1.png",
       "description": "An upcoming project offering residential plots and 2–4 BHK apartments in Kundli, Sonipat, with modern amenities and strategic NCR-location.",
-      "overview": "Trident Kundli is a pre‑launch township featuring custom plots and 2–4 BHK apartments, located near NH‑44 and the KMP Expressway. Designed to promote luxury, green living, and community-focused lifestyle with modern conveniences :contentReference[oaicite:3]{index=3}.",
+      "overview": "Godrej Kundli is a pre‑launch township featuring custom plots and 2–4 BHK apartments, located near NH‑44 and the KMP Expressway. Designed to promote luxury, green living, and community-focused lifestyle with modern conveniences :contentReference[oaicite:3]{index=3}.",
       "features": [
         "Custom Residential Plots",
         "2, 3 & 4 BHK Apartments",
@@ -351,20 +351,20 @@
       ],
       "gallery": {
         "images": [
-          "/img/hills/Trident-hills-photos-1.png",
-          "/img/hills/Trident-hills-photos-2.png",
-          "/img/hills/Trident-hills-photos-3.png",
-          "/img/hills/Trident-hills-photos-4.png",
-          "/img/hills/Trident-hills-photos-5.png",
-          "/img/hills/Trident-hills-photos-6.png",
-          "/img/hills/Trident-hills-photos-7.png",
-          "/img/hills/Trident-hills-photos-8.png"
+          "/img/hills/Godrej-hills-photos-1.png",
+          "/img/hills/Godrej-hills-photos-2.png",
+          "/img/hills/Godrej-hills-photos-3.png",
+          "/img/hills/Godrej-hills-photos-4.png",
+          "/img/hills/Godrej-hills-photos-5.png",
+          "/img/hills/Godrej-hills-photos-6.png",
+          "/img/hills/Godrej-hills-photos-7.png",
+          "/img/hills/Godrej-hills-photos-8.png"
         ],
         "videos": []
       },
       "faqs": [
         {
-          "question": "What is Trident Kundli?",
+          "question": "What is Godrej Kundli?",
           "answer": "An upcoming residential project by Godrej Properties offering plots and 2–4 BHK apartments in Kundli, Sonipat."
         },
         {
@@ -392,9 +392,9 @@
         "officeHours": "10"
       },
       "seoKeywords": [
-        "Trident Kundli Sonipat",
-        "Trident Plots Kundli",
-        "Trident Kundli Apartments",
+        "Godrej Kundli Sonipat",
+        "Godrej Plots Kundli",
+        "Godrej Kundli Apartments",
         "Godrej Properties Kundli",
         "Plots in Kundli",
         "NCR Pre Launch Projects"

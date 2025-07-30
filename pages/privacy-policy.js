@@ -244,10 +244,10 @@ export default function PrivacyPolicy({ lastUpdated }) {
                     <h4 className="font-semibold text-gray-900 mb-2">Email</h4>
                     <p className="text-gray-700">
                       <a
-                        href="mailto:privacy@tridentrealty.com"
+                        href="mailto:privacy@Godrejrealty.com"
                         className="text-blue-600 hover:text-blue-800"
                       >
-                        privacy@tridentrealty.com
+                        privacy@Godrejrealty.com
                       </a>
                     </p>
                   </div>
@@ -299,10 +299,10 @@ export default function PrivacyPolicy({ lastUpdated }) {
                 assistance with your data rights, please don't hesitate to
                 contact our privacy team at{" "}
                 <a
-                  href="mailto:privacy@tridentrealty.com"
+                  href="mailto:privacy@Godrejrealty.com"
                   className="font-semibold underline"
                 >
-                  privacy@tridentrealty.com
+                  privacy@Godrejrealty.com
                 </a>
               </p>
             </div>

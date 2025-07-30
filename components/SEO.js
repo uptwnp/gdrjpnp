@@ -5,7 +5,7 @@ export default function SEO({
   description = "Discover premium residential and commercial properties with Godrej Properties. Get exclusive deals on luxury homes, apartments, and commercial spaces in prime locations.",
   keywords = "real estate, premium properties, residential, commercial, luxury homes, apartments, property investment",
   image = "/images/og-image.jpg",
-  url = "https://tridentrealty.com",
+  url = "https://Godrejrealty.com",
   type = "website",
   publishedTime,
   modifiedTime,
@@ -51,8 +51,8 @@ export default function SEO({
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
-      <meta name="twitter:site" content="@tridentrealty" />
-      <meta name="twitter:creator" content="@tridentrealty" />
+      <meta name="twitter:site" content="@Godrejrealty" />
+      <meta name="twitter:creator" content="@Godrejrealty" />
 
       {/* Additional SEO */}
       <link rel="canonical" href={url} />
@@ -77,7 +77,7 @@ export default function SEO({
               name: "Godrej Properties",
               logo: {
                 "@type": "ImageObject",
-                url: "https://tridentrealty.com/logo.png",
+                url: "https://Godrejrealty.com/logo.png",
               },
             },
             ...(publishedTime && { datePublished: publishedTime }),
