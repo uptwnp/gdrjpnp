@@ -280,7 +280,7 @@ const ProjectModals = ({
                   <span className="text-white text-xs font-bold">T</span>
                 </div>
                 <span className="text-xs font-semibold text-gray-800">
-                  Trident Realty
+                  Godrej Properties
                 </span>
               </div>
             </div>

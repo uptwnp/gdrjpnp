@@ -193,11 +193,11 @@ const ProjectContact = ({
                 </div>
                 <h3 className="text-lg font-bold text-gray-900 mb-1">Email</h3>
                 <p className="text-base font-semibold text-gray-900 mb-3 break-words">
-                  info@tridentrealityinfo.com
+                  info@godrejpropertiesinfo.com
                 </p>
                 <button
                   onClick={() =>
-                    (window.location.href = `mailto:info@tridentrealityinfo.com`)
+                    (window.location.href = `mailto:info@godrejpropertiesinfo.com`)
                   }
                   className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors font-semibold text-sm"
                 >
@@ -250,7 +250,7 @@ const ProjectContact = ({
               </div>
             </div>
             <div className="text-left">
-              <div className="text-xl font-bold">Trident Realty</div>
+              <div className="text-xl font-bold">Godrej Properties</div>
               <div className="text-blue-200">Your Trusted Partner</div>
             </div>
           </div>

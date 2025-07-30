@@ -37,10 +37,10 @@ const ProjectsSection = ({ projects: serverProjects }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-4">
-              Trident Realty Projects
+              Godrej Properties Projects
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Discover Trident Realty portfolio of world-class properties.
+              Discover Godrej Properties portfolio of world-class properties.
             </p>
           </div>
 

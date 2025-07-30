@@ -14,7 +14,7 @@ const Footer = () => {
                 </div>
               </div>
               <div>
-                <h3 className="text-xl font-bold">Trident Realty</h3>
+                <h3 className="text-xl font-bold">Godrej Properties</h3>
                 <p className="text-gray-400">Projects Details</p>
               </div>
             </div>
@@ -47,10 +47,10 @@ const Footer = () => {
               <p>
                 📧{" "}
                 <a
-                  href="mailto:info@tridentrealityinfo.com"
+                  href="mailto:info@godrejpropertiesinfo.com"
                   className="hover:text-white transition-colors"
                 >
-                  info@tridentrealityinfo..com
+                  info@godrejpropertiesinfo..com
                 </a>
               </p>
               <p>
@@ -92,7 +92,7 @@ const Footer = () => {
               </a>
             </div>
             <p className="text-gray-500 text-sm">
-              © 2024 Trident Realty. All rights reserved.
+              © 2024 Godrej Properties. All rights reserved.
             </p>
           </div>
 
@@ -100,8 +100,9 @@ const Footer = () => {
           <div className="mt-6 p-4 bg-gray-800 rounded-lg">
             <p className="text-sm text-gray-400">
               <strong>Disclaimer:</strong> This website is operated by a channel
-              partner of Trident Realty and is not the official site of Trident
-              Realty. The content provided is for informational purposes only.
+              partner of Godrej Properties and is not the official site of
+              Godrej Properties. The content provided is for informational
+              purposes only.
             </p>
           </div>
         </div>

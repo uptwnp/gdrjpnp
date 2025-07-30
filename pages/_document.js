@@ -7,7 +7,7 @@ export default function Document() {
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <meta
           name="description"
-          content="Discover premium residential and commercial properties with Trident Realty. Get exclusive deals on luxury homes, apartments, and commercial spaces in prime locations."
+          content="Discover premium residential and commercial properties with Godrej Properties. Get exclusive deals on luxury homes, apartments, and commercial spaces in prime locations."
         />
         <meta
           name="keywords"
@@ -25,7 +25,7 @@ export default function Document() {
         {/* Open Graph Meta Tags */}
         <meta
           property="og:title"
-          content="Trident Realty - Premium Properties"
+          content="Godrej Properties - Premium Properties"
         />
         <meta
           property="og:description"
@@ -33,7 +33,7 @@ export default function Document() {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://tridentrealty.com" />
-        <meta property="og:site_name" content="Trident Realty" />
+        <meta property="og:site_name" content="Godrej Properties" />
         <meta property="og:locale" content="en_US" />
 
         {/* Twitter Card */}
@@ -48,7 +48,7 @@ export default function Document() {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "RealEstateAgent",
-              name: "Trident Realty",
+              name: "Godrej Properties",
               description:
                 "Premium residential and commercial real estate properties",
               url: "https://tridentrealty.com",

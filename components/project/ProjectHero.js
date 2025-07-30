@@ -52,7 +52,7 @@ const ProjectHero = ({
               </div>
               <div>
                 <span className="font-semibold text-sm sm:text-base">
-                  Trident Realty
+                  Godrej Properties
                 </span>
                 <span className="mx-1 sm:mx-2">•</span>
                 <span className="text-blue-100 text-xs sm:text-sm">
@@ -297,7 +297,7 @@ const ProjectHero = ({
                   </div>
                   <div className="text-center">
                     <div className="text-sm font-semibold text-gray-900">
-                      Trident Realty
+                      Godrej Properties
                     </div>
                     <div className="text-xs text-gray-600">Trusted Partner</div>
                   </div>

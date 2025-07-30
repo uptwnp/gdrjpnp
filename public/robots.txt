@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tridentrealityinfo.com/sitemap.xml
+Sitemap: https://godrejpropertiesinfo.com/sitemap.xml

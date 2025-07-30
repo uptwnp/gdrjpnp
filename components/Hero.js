@@ -20,11 +20,11 @@ const Hero = () => {
           <div className="text-center">
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
               Welcome to
-              <span className="text-blue-600"> Trident Realty</span>
+              <span className="text-blue-600"> Godrej Properties</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Explore top Trident Realty Projects – Verified. Profitable. Ready
-              to Move. Get expert help. Buy smart.
+              Explore top Godrej Properties Projects – Verified. Profitable.
+              Ready to Move. Get expert help. Buy smart.
             </p>
 
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-12">

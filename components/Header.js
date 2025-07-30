@@ -33,7 +33,7 @@ const Header = () => {
               </div>
               <div>
                 <h1 className="text-xl font-bold text-gray-900">
-                  Trident Realty
+                  Godrej Properties
                 </h1>
                 <p className="text-sm text-gray-600">Project Info</p>
               </div>

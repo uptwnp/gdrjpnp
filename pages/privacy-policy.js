@@ -6,9 +6,9 @@ export default function PrivacyPolicy({ lastUpdated }) {
   return (
     <>
       <SEO
-        title="Privacy Policy - Trident Realty"
-        description="Read our privacy policy to understand how Trident Realty collects, uses, and protects your personal information when you use our services."
-        keywords="privacy policy, data protection, personal information, Trident Realty, real estate privacy"
+        title="Privacy Policy - Godrej Properties"
+        description="Read our privacy policy to understand how Godrej Properties collects, uses, and protects your personal information when you use our services."
+        keywords="privacy policy, data protection, personal information, Godrej Properties, real estate privacy"
       />
       <div className="min-h-screen bg-white">
         <Header />
@@ -29,7 +29,7 @@ export default function PrivacyPolicy({ lastUpdated }) {
                 1. Introduction
               </h2>
               <p className="text-gray-700 mb-4">
-                Welcome to Trident Realty ("we," "our," or "us"). We are
+                Welcome to Godrej Properties ("we," "our," or "us"). We are
                 committed to protecting your privacy and ensuring the security
                 of your personal information. This Privacy Policy explains how
                 we collect, use, disclose, and safeguard your information when
@@ -267,7 +267,7 @@ export default function PrivacyPolicy({ lastUpdated }) {
                 <div className="mt-4">
                   <h4 className="font-semibold text-gray-900 mb-2">Address</h4>
                   <p className="text-gray-700">
-                    Trident Realty
+                    Godrej Properties
                     <br />
                     123 Business District
                     <br />

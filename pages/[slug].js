@@ -160,7 +160,7 @@ const ProjectDetail = ({ project: serverProject, notFound }) => {
     return (
       <>
         <SEO
-          title="Project Not Found - Trident Realty"
+          title="Project Not Found - Godrej Properties"
           description="The project you're looking for could not be found. Browse our other premium properties."
         />
         <div className="min-h-screen bg-white">
