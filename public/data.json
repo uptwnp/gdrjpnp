@@ -1,176 +1,111 @@
 {
   "projects": [
     {
-      "id": "Godrej-hills",
-      "name": "Godrej Hills",
-      "slug": "Godrej-hills",
-      "location": "Sector 4, Pinjore-Kalka Urban Complex, Panchkula, Haryana 134102",
-      "priceRange": "₹1.08 Cr Onwards",
-      "status": "Possession Started",
-      "statusColor": "blue",
-      "type": "Residential Township",
-      "bhk": "Plots, Villas & 4 BHK Floors",
+      "id": "Godrej-green-estate",
+      "name": "Godrej Green Estate",
+      "slug": "Godrej-green-estate",
+      "location": "Sector 34, Sonipat, Haryana",
+      "priceRange": "₹1.15 Cr Onwards",
+      "status": "Possession by March 2024",
+      "statusColor": "green",
+      "type": "Residential Plotted Development",
+      "bhk": "Residential Plots",
       "image": "/img/hills/Trident-hills-photos-2.png",
-      "description": "Godrej Hills is a 200-acre premium integrated township nestled at the foothills of the Shivalik Hills, offering residential plots, premium floors, villas, and commercial spaces with world-class lifestyle amenities.",
-      "overview": "Welcome to Godrej Hills — a 200-acre township designed for privileged living surrounded by the natural beauty of the Shivaliks. Strategically located on the Zirakpur-Kalka Highway (NH-5) in Pinjore, Panchkula, this gated community offers lush green surroundings, a state-of-the-art clubhouse 'The Azaleas', landscaped open areas, and a congestion-free environment. Developed by Godrej Properties, this township is future-ready, backed by world-class infrastructure and promising high investment potential.",
+      "description": "Godrej Green Estate in Sonipat is a premium plotted development featuring resort-style living, spread across 48 acres of lush greenery and offering 718 plots ranging from 109 to 179 sq. yds.",
+      "overview": "Godrej Green Estate is a resort-themed residential plotted township by Godrej Properties in Sector 34, Sonipat. This 48-acre community offers tranquil green landscapes, top-tier amenities, and excellent connectivity to Delhi and major urban hubs, creating an ideal lifestyle address.",
       "features": [
-        "Integrated 200-acre Gated Township",
-        "Low-rise Premium Floors & Villas",
-        "Scenic Foothills Location",
-        "Future-Ready Smart Infrastructure",
-        "RERA Registered"
+        "Resort-style Gated Community",
+        "Green Living with 2000+ Trees",
+        "48 Acre Township",
+        "718 Plots Ranging from 109–179 sq. yds",
+        "3.5 Acres of Green Landscaping",
+        "Future Metro & RRTS Connectivity"
       ],
-      "possession": "Possession Started",
+      "possession": "March 2024 (Expected)",
       "unitSizes": [
         {
           "type": "Residential Plot",
-          "size": "150 sq. yds",
-          "price": "₹1.08 Cr*"
+          "size": "109 sq. yds",
+          "price": "₹1.15 Cr*"
         },
         {
           "type": "Residential Plot",
-          "size": "250 sq. yds",
-          "price": "Call for Price"
-        },
-        {
-          "type": "4 BHK Independent Floor",
-          "size": "1963 sq. ft",
-          "price": "₹2.52 Cr*"
+          "size": "179 sq. yds",
+          "price": "₹1.74 Cr*"
         }
       ],
       "amenities": [
-        "Grand Clubhouse - The Azaleas",
-        "Swimming Pool with Open Bar",
-        "Spa, Sauna & Yoga Studio",
-        "Indoor Games & Virtual Golf",
-        "Senior Citizen Rooms",
-        "Valet Parking & Guest Rooms",
-        "Medical Centre with Nursing Facility",
-        "Nursery & Primary Schools",
-        "Herb Garden & Themed Gardens",
-        "Landscape Green Areas",
-        "Electric Car Charging Points",
-        "Smart Streetlights",
-        "Power Backup",
-        "CCTV Surveillance & Control Center",
-        "Children's Play Zone & Activity Studios",
-        "Amphitheatre"
+        "Resort-Style Clubhouse",
+        "Swimming Pool",
+        "Gymnasium",
+        "Meditation Zone",
+        "Indoor Games & Theatre",
+        "Jogging & Cycling Tracks",
+        "Kids Play Area",
+        "Open-Air Amphitheatre",
+        "Badminton & Tennis Courts",
+        "Underground Wiring",
+        "Rainwater Harvesting",
+        "24×7 Security & Gated Entry",
+        "Paved Internal Roads",
+        "Yoga & Senior Citizen Zones",
+        "Themed Gardens"
       ],
-      "clubAmenities": [
-        "Banquet Hall & Party Lawns",
-        "Bars, Lounges & Cafés",
-        "Snooker, Cards & Chess Rooms",
-        "Terrace Seating & Auditoriums",
-        "Tennis, Basketball & Cricket Pitch",
-        "Foosball, Air Hockey, Table Tennis",
-        "Badminton, Squash, Virtual Golf",
-        "Pilates & Aerobics Studio",
-        "Children's Dance, Music & Art Studio",
-        "Private Screening Theatre"
-      ],
+      "clubAmenities": [],
       "locationHighlights": [
-        "05 km from Panchkula",
-        "31 km from Chandigarh Airport",
-        "Adjacent to Shimla-Kalka Highway (NH-5)",
-        "Close to Hospitals: Paras (8 km), Alchemist (10 km), PGI (24 km)",
-        "Elante Mall - 18 km, DT Mall - 25 km",
-        "Panchkula Golf Club (12 km), Chandigarh Golf Club (18 km)",
-        "Morni Hills (26 km), Sukhna Lake (20 km), Wildlife Reserves nearby"
+        "Located in Sector 34, Sonipat",
+        "Near NH-1 & Delhi Border (~16 mins)",
+        "Upcoming Metro & Rapid Rail Corridor Nearby",
+        "Surrounded by Schools, Hospitals, & Malls",
+        "Good Connectivity to North Delhi Industrial Belt"
       ],
       "gallery": {
         "images": [
           "/img/hills/Trident-hills-photos-1.png",
           "/img/hills/Trident-hills-photos-2.png",
           "/img/hills/Trident-hills-photos-3.png",
-          "/img/hills/Trident-hills-photos-4.png",
-          "/img/hills/Trident-hills-photos-5.png",
-          "/img/hills/Trident-hills-photos-6.png",
-          "/img/hills/Trident-hills-photos-7.png",
-          "/img/hills/Trident-hills-photos-8.png"
+          "/img/hills/Trident-hills-photos-4.png"
         ],
         "videos": []
       },
       "faqs": [
         {
-          "question": "What is Godrej Hills?",
-          "answer": "Godrej Hills is a 200-acre integrated residential township located in Pinjore, Panchkula at the foothills of the Shivalik range."
+          "question": "What is Godrej Green Estate?",
+          "answer": "Godrej Green Estate is a premium residential plotted development project by Godrej Properties in Sector 34, Sonipat."
         },
         {
-          "question": "What does Godrej Hills offer?",
-          "answer": "It offers residential plots, low-rise premium floors, villas, group housing, and commercial spaces."
+          "question": "What types of properties are available?",
+          "answer": "Residential plots ranging from 109 to 179 sq. yds."
         },
         {
-          "question": "Where is Godrej Hills located?",
-          "answer": "It is situated in Sector 4, Pinjore-Kalka Urban Complex, Panchkula, Haryana 134102."
+          "question": "What are the key amenities?",
+          "answer": "Amenities include a clubhouse, swimming pool, gardens, yoga zone, security, and more."
         },
         {
-          "question": "What are the project amenities?",
-          "answer": "Amenities include green landscapes, clubhouse, herb gardens, car charging points, smart street lights, command center, CCTV, medical and educational facilities, power backup, and amphitheatre."
+          "question": "Is the project RERA approved?",
+          "answer": "RERA approval is expected. Check official site or authority for latest status."
         },
         {
-          "question": "What makes Godrej Hills unique?",
-          "answer": "Its scenic location at the foothills of the Shivaliks, 200-acre scale, future-ready infrastructure, and lush green surroundings make it stand out."
-        },
-        {
-          "question": "What is available inside the clubhouse?",
-          "answer": "The Azaleas clubhouse includes banquet, bars, cafes, gaming zones, indoor sports, gym, spa, yoga studio, kids activity zones, and even a private screening theatre."
-        },
-        {
-          "question": "What are the locational advantages?",
-          "answer": "Excellent connectivity to Chandigarh, Mohali, Shimla; proximity to hospitals, schools, malls, and IT hubs; located on NH-5."
-        },
-        {
-          "question": "What is the starting price?",
-          "answer": "Residential plots start from ₹1.08 Cr onwards. Floors start from ₹2.52 Cr."
-        },
-        {
-          "question": "Are there flexible payment plans?",
-          "answer": "Yes. Time & Development Linked Plans and Down Payment Plans are available."
-        },
-        {
-          "question": "What is the possession date?",
-          "answer": "Possession has already started, depending on phase and unit type."
-        },
-        {
-          "question": "Is it RERA registered?",
-          "answer": "Yes. HRERA-PKL-PKL-355-2022 and HRERA-PKL-PKL-356-2022 (both dated 30.09.2022)."
-        },
-        {
-          "question": "Which banks are offering home loans?",
-          "answer": "Banks like HDFC, SBI, LIC Housing Finance, and Bajaj Finance are supporting the project."
+          "question": "When will possession start?",
+          "answer": "Possession is expected by March 2024."
         }
       ],
-      "reviews": [
-        {
-          "name": "Sandeep Verma",
-          "rating": 5,
-          "comment": "Amazing location and concept. The idea of a full township with all facilities is very promising. Booked a plot.",
-          "date": "2024-03-20"
-        },
-        {
-          "name": "Neha Gupta",
-          "rating": 4,
-          "comment": "The sample floors look great. The construction quality seems top-notch. Eagerly waiting for possession.",
-          "date": "2024-02-18"
-        }
-      ],
+      "reviews": [],
       "contactInfo": {
-        "address": "Site Office, Godrej Hills, Sector 4, Pinjore-Kalka Urban Complex, Panchkula, Haryana 134102",
+        "address": "Site Office, Godrej Green Estate, Sector 34, Sonipat, Haryana",
         "phone": "+91 9138331357",
-        "email": "sales@godrejpropertiesinfo.com.com",
+        "email": "NA",
         "officeHours": "Mon-Sun: 10:00 AM - 6:00 PM"
       },
       "seoKeywords": [
-        "Godrej Hills Panchkula",
-        "Godrej Hills Plots",
-        "Godrej Hills Independent Floors",
-        "Godrej Hills Price",
-        "Godrej Hills Location",
-        "Godrej Properties Projects",
-        "Luxury Township in Panchkula",
-        "Godrej Hills Villas",
-        "Godrej Hills Clubhouse",
-        "Plots in Pinjore"
+        "Godrej Green Estate",
+        "Godrej Green Estate Sonipat",
+        "Plots in Sonipat",
+        "Godrej Plotted Development",
+        "Residential Plots Haryana",
+        "Godrej Sector 34 Sonipat",
+        "Resort Living Plots",
+        "Sonipat Real Estate Investment"
       ]
     },
     {
