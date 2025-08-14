@@ -112,15 +112,15 @@
       "id": "Godrej-panipat",
       "name": "Godrej Panipat",
       "slug": "Godrej-panipat",
-      "location": "Sector 19A, Panipat, Haryana",
-      "priceRange": "2 Cr ++",
+      "location": "Sector 40, Panipat, Haryana",
+      "priceRange": "1.2 Cr+",
       "status": "Pre-Launch Soon",
       "statusColor": "orange",
-      "type": "Residential Plots & Apartments",
-      "bhk": "Residential Plots",
+      "type": "Residential Plots",
+      "bhk": "Residential Plots Intialy",
       "image": "/img/hills/Trident-hills-photos-2.png",
-      "description": "Godrej Panipat is an upcoming integrated residential project offering plotted development in Sector 19A, Panipat. Strategically located near NH-44 and key infrastructure, it promises a lifestyle enriched with green living and premium amenities.",
-      "overview": "Developed by Godrej Properties, Godrej Panipat spans around 150 acres of residential plots. The project emphasizes sustainable infrastructure, green landscaping, and seamless connectivity. It is currently in pre-launch and is attracting investors due to its high potential location and planned facilities.",
+      "description": "Godrej Panipat is an upcoming integrated residential project offering plotted development in Sector 40, Panipat. Strategically located near NH-44 and key infrastructure, it promises a lifestyle enriched with green living and premium amenities.",
+      "overview": "Developed by Godrej Properties, Godrej Panipat spans around 43 acres of residential plots. The project emphasizes sustainable infrastructure, green landscaping, and seamless connectivity. It is currently in pre-launch and is attracting investors due to its high potential location and planned facilities.",
       "features": [
         "Residential Plots",
         "Prime Locality",
@@ -132,8 +132,8 @@
       "unitSizes": [
         {
           "type": "Residential Plot",
-          "size": "270 sq. yds – 1000 sq. yds",
-          "price": "NA"
+          "size": "100 sq. yds – 180 sq. yds",
+          "price": "1.20 Lakh Approx"
         }
       ],
       "amenities": [
@@ -154,9 +154,9 @@
       ],
       "clubAmenities": [],
       "locationHighlights": [
-        "Located in Sector 19A, Panipat",
+        "Located in Sector 40, Panipat",
         "Near NH-44 (Delhi–Chandigarh Highway)",
-        "2.86 km from Panipat Railway Station",
+        "7 km from Panipat Railway Station",
         "Close to educational institutes, hospitals & shopping malls",
         "Upcoming metro/rapid transit connectivity",
         "Easy access to industrial & business hubs"
@@ -177,11 +177,11 @@
       "faqs": [
         {
           "question": "What is Godrej Panipat?",
-          "answer": "It is a pre-launch integrated residential project by Godrej Properties in Sector 19A, Panipat, offering plots and apartments."
+          "answer": "It is a pre-launch integrated residential project by Godrej Properties in Sector 40, Panipat, offering plots.."
         },
         {
           "question": "What types of properties are available?",
-          "answer": "Residential plots ranging from 270 to 1000 sq. yds."
+          "answer": "Residential plots ranging from 100 to 180 sq. yds."
         },
         {
           "question": "Is the project RERA approved?",
@@ -202,7 +202,7 @@
       ],
       "reviews": [],
       "contactInfo": {
-        "address": "Sector 19A, Panipat, Haryana",
+        "address": "Sector 40, Panipat, Haryana",
         "phone": "+91 9138331357",
         "email": "NA",
         "officeHours": "NA"
