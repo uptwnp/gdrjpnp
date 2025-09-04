@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Download,
   IndianRupee,
@@ -28,6 +28,12 @@ const ProjectModals = ({
 }) => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState("");
+  const [successfulModalType, setSuccessfulModalType] = useState(null);
+
+  // Debug: Track showSuccess state changes
+  useEffect(() => {
+    console.log("showSuccess state changed to:", showSuccess);
+  }, [showSuccess]);
   const handleFormSubmit = async (e, type) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -52,8 +58,11 @@ const ProjectModals = ({
 
       // Check the response data
       if (data && data.status === "success") {
+        console.log("Setting showSuccess to true for modal type:", type);
         setShowSuccess(true);
-        resetForm(); // Reset form after successful submission
+        setSuccessfulModalType(type);
+        // Reset form data but keep success state
+        setFormData({ name: "", phone: "", budget: "" });
       } else {
         setError(data?.message || "Something went wrong while submitting. Please try again.");
       }
@@ -234,11 +243,12 @@ const ProjectModals = ({
                 if (showPricingModal) resetForm("pricing");
                 if (showVideoLeadModal) resetForm("video");
                 if (showLayoutModal) resetForm("layout");
+                setSuccessfulModalType(null);
               }}
             ></div>
             <div className="relative w-full max-w-md p-4 sm:p-6 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
               {showBrochureModal &&
-                (showSuccess
+                (showSuccess && successfulModalType === "brochure"
                   ? renderSuccessMessage("brochure")
                   : renderForm(
                       "brochure",
@@ -247,7 +257,7 @@ const ProjectModals = ({
                       "Download Brochure"
                     ))}
               {showPricingModal &&
-                (showSuccess
+                (showSuccess && successfulModalType === "pricing"
                   ? renderSuccessMessage("pricing")
                   : renderForm(
                       "pricing",
@@ -256,7 +266,7 @@ const ProjectModals = ({
                       "Submit Request"
                     ))}
               {showVideoLeadModal &&
-                (showSuccess
+                (showSuccess && successfulModalType === "video"
                   ? renderSuccessMessage("video")
                   : renderForm(
                       "video",
@@ -266,7 +276,7 @@ const ProjectModals = ({
                       "bg-red-500 hover:bg-red-600"
                     ))}
               {showLayoutModal &&
-                (showSuccess
+                (showSuccess && successfulModalType === "layout"
                   ? renderSuccessMessage("layout")
                   : renderForm(
                       "layout",
