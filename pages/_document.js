@@ -76,6 +76,16 @@ export default function Document() {
         <link rel="dns-prefetch" href="https://www.m3mindiaproperty.com" />
       </Head>
       <body>
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-P6ZMBHNC"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          />
+        </noscript>
+        {/* End Google Tag Manager (noscript) */}
         <Main />
         <NextScript />
       </body>
