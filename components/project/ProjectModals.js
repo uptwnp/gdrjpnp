@@ -56,7 +56,12 @@ const ProjectModals = ({
       );
 
       if (response.ok) {
-        setShowSuccess(true);
+        const data = await response.json();
+        if (data.status === "success") {
+          setShowSuccess(true);
+        } else {
+          setError(data.message || "Something went wrong while submitting. Please try again.");
+        }
       } else {
         setError("Something went wrong while submitting. Please try again.");
       }
@@ -223,7 +228,7 @@ const ProjectModals = ({
         showVideoLeadModal ||
         showLayoutModal) && (
         <div className="fixed inset-0 z-50 overflow-y-auto">
-          <div className="flex items-center justify-center min-h-screen px-4 py-4 text-center sm:block sm:p-0">
+          <div className="flex items-center justify-center min-h-screen px-4 py-4">
             <div
               className="fixed inset-0 transition-opacity bg-gray-500 bg-opacity-75"
               onClick={() => {
@@ -235,7 +240,7 @@ const ProjectModals = ({
                 if (showLayoutModal) resetForm("layout");
               }}
             ></div>
-            <div className="inline-block w-full max-w-md p-4 sm:p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl sm:my-8">
+            <div className="relative w-full max-w-md p-4 sm:p-6 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
               {showBrochureModal &&
                 (showSuccess
                   ? renderSuccessMessage("brochure")
