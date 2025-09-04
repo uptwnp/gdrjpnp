@@ -21,6 +21,7 @@ const ProjectModals = ({
   formData,
   setFormData,
   showSuccess,
+  setShowSuccess,
   resetForm,
   handleWhatsApp,
   handleCall,

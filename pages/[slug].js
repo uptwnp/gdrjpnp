@@ -240,6 +240,7 @@ const ProjectDetail = ({ project: serverProject, notFound }) => {
           setFormData={setFormData}
           handleFormSubmit={handleFormSubmit}
           showSuccess={showSuccess}
+          setShowSuccess={setShowSuccess}
           resetForm={resetForm}
           handleWhatsApp={handleWhatsApp}
           handleCall={handleCall}
