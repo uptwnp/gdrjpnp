@@ -8,11 +8,15 @@ const ContactModal = ({ isOpen, onClose, type, projectName }) => {
     budget: "",
   });
   const [showSuccess, setShowSuccess] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState("");
 
   if (!isOpen) return null;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
+    setError("");
 
     try {
       const response = await fetch(
@@ -31,13 +35,15 @@ const ContactModal = ({ isOpen, onClose, type, projectName }) => {
       );
 
       if (response.ok) {
-        console.log("Data saved successfully");
-        setShowSuccess(true); // show thank you message or modal
+        setShowSuccess(true);
       } else {
-        console.error("Failed to save data");
+        setError("Something went wrong while submitting. Please try again.");
       }
     } catch (error) {
       console.error("Error occurred:", error);
+      setError("Network error. Please check your connection and try again.");
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
