@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { X, Phone, MessageSquare, IndianRupee } from "lucide-react";
+import { submitFormData } from "../lib/api";
 
 const ContactModal = ({ isOpen, onClose, type, projectName }) => {
   const [formData, setFormData] = useState({
@@ -19,34 +20,33 @@ const ContactModal = ({ isOpen, onClose, type, projectName }) => {
     setError("");
 
     try {
-      const response = await fetch(
-        "https://prop.digiheadway.in/api/submit.php",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            name: formData.name,
-            phone: formData.phone,
-            budget: formData.budget,
-          }),
-        }
-      );
+      const data = await submitFormData({
+        name: formData.name,
+        phone: formData.phone,
+        budget: formData.budget,
+      });
 
-      if (response.ok) {
-        const data = await response.json();
-        if (data.status === "success") {
-          setShowSuccess(true);
-        } else {
-          setError(data.message || "Something went wrong while submitting. Please try again.");
-        }
+      console.log("Parsed response data:", data);
+
+      // Check the response data
+      if (data && data.status === "success") {
+        setShowSuccess(true);
+        // Reset form after successful submission
+        setFormData({
+          name: "",
+          phone: "",
+          budget: "",
+        });
       } else {
-        setError("Something went wrong while submitting. Please try again.");
+        setError(data?.message || "Something went wrong while submitting. Please try again.");
       }
     } catch (error) {
       console.error("Error occurred:", error);
-      setError("Network error. Please check your connection and try again.");
+      if (error.name === 'TypeError' && error.message.includes('fetch')) {
+        setError("Network error. Please check your connection and try again.");
+      } else {
+        setError(error.message || "An unexpected error occurred. Please try again.");
+      }
     } finally {
       setIsSubmitting(false);
     }

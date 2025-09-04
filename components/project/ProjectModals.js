@@ -7,6 +7,7 @@ import {
   MessageSquare,
   Layout,
 } from "lucide-react";
+import { submitFormData } from "../../lib/api";
 
 const ProjectModals = ({
   project,
@@ -39,35 +40,29 @@ const ProjectModals = ({
     };
 
     try {
-      const response = await fetch(
-        "https://prop.digiheadway.in/api/submit.php",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            name: formData.name,
-            phone: formData.phone,
-            email: formData.email || "",
-            interest: interestMap[type] || "Website Lead",
-          }),
-        }
-      );
+      const data = await submitFormData({
+        name: formData.name,
+        phone: formData.phone,
+        email: formData.email || "",
+        interest: interestMap[type] || "Website Lead",
+      });
 
-      if (response.ok) {
-        const data = await response.json();
-        if (data.status === "success") {
-          setShowSuccess(true);
-        } else {
-          setError(data.message || "Something went wrong while submitting. Please try again.");
-        }
+      console.log("Parsed response data:", data);
+
+      // Check the response data
+      if (data && data.status === "success") {
+        setShowSuccess(true);
+        resetForm(); // Reset form after successful submission
       } else {
-        setError("Something went wrong while submitting. Please try again.");
+        setError(data?.message || "Something went wrong while submitting. Please try again.");
       }
     } catch (error) {
       console.error("Form submit error:", error);
-      setError("Network error. Please check your connection and try again.");
+      if (error.name === 'TypeError' && error.message.includes('fetch')) {
+        setError("Network error. Please check your connection and try again.");
+      } else {
+        setError(error.message || "An unexpected error occurred. Please try again.");
+      }
     } finally {
       setIsSubmitting(false);
     }
