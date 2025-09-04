@@ -24,8 +24,12 @@ const ProjectModals = ({
   handleWhatsApp,
   handleCall,
 }) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState("");
   const handleFormSubmit = async (e, type) => {
     e.preventDefault();
+    setIsSubmitting(true);
+    setError("");
 
     const interestMap = {
       brochure: "Download Brochure",
@@ -54,11 +58,13 @@ const ProjectModals = ({
       if (response.ok) {
         setShowSuccess(true);
       } else {
-        alert("Something went wrong while submitting. Please try again.");
+        setError("Something went wrong while submitting. Please try again.");
       }
     } catch (error) {
       console.error("Form submit error:", error);
-      alert("Network error. Please try again.");
+      setError("Network error. Please check your connection and try again.");
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -121,7 +127,11 @@ const ProjectModals = ({
           <h3 className="text-lg font-semibold text-gray-900">{title}</h3>
         </div>
         <button
-          onClick={() => resetForm(modalType)}
+          onClick={() => {
+            setError("");
+            setIsSubmitting(false);
+            resetForm(modalType);
+          }}
           className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
         >
           <X className="h-5 w-5 text-gray-500" />
@@ -131,6 +141,12 @@ const ProjectModals = ({
         onSubmit={(e) => handleFormSubmit(e, modalType)}
         className="space-y-4"
       >
+        {error && (
+          <div className="bg-red-50 border border-red-200 rounded-lg p-3">
+            <p className="text-red-600 text-sm">{error}</p>
+          </div>
+        )}
+        
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
             Full Name *
@@ -138,7 +154,8 @@ const ProjectModals = ({
           <input
             type="text"
             required
-            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            disabled={isSubmitting}
+            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 disabled:bg-gray-100 disabled:cursor-not-allowed"
             placeholder="Enter your full name"
             value={formData.name}
             onChange={(e) => setFormData({ ...formData, name: e.target.value })}
@@ -151,7 +168,8 @@ const ProjectModals = ({
           <input
             type="tel"
             required
-            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            disabled={isSubmitting}
+            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 disabled:bg-gray-100 disabled:cursor-not-allowed"
             placeholder="9138331357"
             value={formData.phone}
             onChange={(e) =>
@@ -165,7 +183,8 @@ const ProjectModals = ({
           </label>
           <select
             required
-            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white"
+            disabled={isSubmitting}
+            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white disabled:bg-gray-100 disabled:cursor-not-allowed"
             value={formData.budget}
             onChange={(e) =>
               setFormData({ ...formData, budget: e.target.value })
@@ -182,9 +201,10 @@ const ProjectModals = ({
         </div>
         <button
           type="submit"
-          className={`w-full px-4 py-3 text-white rounded-lg transition-colors font-semibold ${buttonColorClass}`}
+          disabled={isSubmitting}
+          className={`w-full px-4 py-3 text-white rounded-lg transition-colors font-semibold disabled:opacity-50 disabled:cursor-not-allowed ${buttonColorClass}`}
         >
-          {buttonText}
+          {isSubmitting ? "Submitting..." : buttonText}
         </button>
       </form>
     </>
@@ -203,17 +223,19 @@ const ProjectModals = ({
         showVideoLeadModal ||
         showLayoutModal) && (
         <div className="fixed inset-0 z-50 overflow-y-auto">
-          <div className="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
+          <div className="flex items-center justify-center min-h-screen px-4 py-4 text-center sm:block sm:p-0">
             <div
               className="fixed inset-0 transition-opacity bg-gray-500 bg-opacity-75"
               onClick={() => {
+                setError("");
+                setIsSubmitting(false);
                 if (showBrochureModal) resetForm("brochure");
                 if (showPricingModal) resetForm("pricing");
                 if (showVideoLeadModal) resetForm("video");
                 if (showLayoutModal) resetForm("layout");
               }}
             ></div>
-            <div className="inline-block w-full max-w-md p-4 sm:p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
+            <div className="inline-block w-full max-w-md p-4 sm:p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl sm:my-8">
               {showBrochureModal &&
                 (showSuccess
                   ? renderSuccessMessage("brochure")

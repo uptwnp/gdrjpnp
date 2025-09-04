@@ -81,6 +81,8 @@ const ContactModal = ({ isOpen, onClose, type, projectName }) => {
   const resetForm = () => {
     setFormData({ name: "", phone: "", budget: "" });
     setShowSuccess(false);
+    setError("");
+    setIsSubmitting(false);
     onClose();
   };
 
@@ -124,13 +126,13 @@ const ContactModal = ({ isOpen, onClose, type, projectName }) => {
 
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto">
-      <div className="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
+      <div className="flex items-center justify-center min-h-screen px-4 py-4 text-center sm:block sm:p-0">
         <div
           className="fixed inset-0 transition-opacity bg-gray-500 bg-opacity-75"
           onClick={showSuccess ? resetForm : onClose}
         ></div>
 
-        <div className="inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
+        <div className="inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl sm:my-8">
           {showSuccess ? (
             <div className="text-center">
               <div className="flex items-center justify-center mb-6">
@@ -216,6 +218,12 @@ const ContactModal = ({ isOpen, onClose, type, projectName }) => {
               </div>
 
               <form onSubmit={handleSubmit} className="space-y-4">
+                {error && (
+                  <div className="bg-red-50 border border-red-200 rounded-lg p-3">
+                    <p className="text-red-600 text-sm">{error}</p>
+                  </div>
+                )}
+                
                 <div>
                   <label
                     htmlFor="name"
@@ -227,7 +235,8 @@ const ContactModal = ({ isOpen, onClose, type, projectName }) => {
                     type="text"
                     id="name"
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-lg"
+                    disabled={isSubmitting}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-lg disabled:bg-gray-100 disabled:cursor-not-allowed"
                     placeholder="Enter your full name"
                     value={formData.name}
                     onChange={(e) =>
@@ -247,7 +256,8 @@ const ContactModal = ({ isOpen, onClose, type, projectName }) => {
                     type="tel"
                     id="phone"
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-lg"
+                    disabled={isSubmitting}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-lg disabled:bg-gray-100 disabled:cursor-not-allowed"
                     placeholder="9138331357"
                     value={formData.phone}
                     onChange={(e) =>
@@ -266,7 +276,8 @@ const ContactModal = ({ isOpen, onClose, type, projectName }) => {
                   <select
                     id="budget"
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-lg bg-white"
+                    disabled={isSubmitting}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-lg bg-white disabled:bg-gray-100 disabled:cursor-not-allowed"
                     value={formData.budget}
                     onChange={(e) =>
                       setFormData({ ...formData, budget: e.target.value })
@@ -284,7 +295,8 @@ const ContactModal = ({ isOpen, onClose, type, projectName }) => {
 
                 <button
                   type="submit"
-                  className={`w-full px-4 py-2 rounded-lg transition-colors font-semibold ${
+                  disabled={isSubmitting}
+                  className={`w-full px-4 py-2 rounded-lg transition-colors font-semibold disabled:opacity-50 disabled:cursor-not-allowed ${
                     type === "video"
                       ? "bg-red-500 text-white hover:bg-red-600"
                       : type === "whatsapp"
@@ -292,7 +304,9 @@ const ContactModal = ({ isOpen, onClose, type, projectName }) => {
                       : "bg-blue-600 text-white hover:bg-blue-700"
                   }`}
                 >
-                  {type === "whatsapp"
+                  {isSubmitting
+                    ? "Submitting..."
+                    : type === "whatsapp"
                     ? "Send WhatsApp Message"
                     : type === "video"
                     ? "Watch Video Now"
